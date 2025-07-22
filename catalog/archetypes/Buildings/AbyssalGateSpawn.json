@@ -1,0 +1,58 @@
+﻿{
+  "__base_type": "SpawnAbilityData",
+  "autocast": {
+    "autocasts": false,
+    "initially_on": false
+  },
+  "based_on": "SpawnAbilityData",
+  "commands": [
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "CloningMatrix"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "AvatarRelic"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "StructureRelic"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "StormCreator"
+    }
+  ],
+  "id": "MeatManor_Spawn",
+  "range": 9.0,
+  "spawnUnitDataList": [
+    "CloningMatrix",
+    "AvatarRelic",
+    "StructureRelic",
+    "StormCreator"
+  ]
+}

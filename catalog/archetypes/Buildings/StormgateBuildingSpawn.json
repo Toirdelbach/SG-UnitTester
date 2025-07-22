@@ -1,0 +1,113 @@
+﻿{
+  "__base_type": "SpawnAbilityData",
+  "autocast": {
+    "autocasts": false,
+    "initially_on": false
+  },
+  "based_on": "SpawnAbilityData",
+  "commands": [
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "FlyingTransportReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "CombatMedicCreepReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "OozeReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "ExploderReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "SpawnerReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "ShadowDemonReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "V5RocketLauncherReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "AntiAirReward"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "",
+        "recharge_duration": 0.0,
+        "starting_count": 1
+      },
+      "spawn_count": 1,
+      "unit": "ShadowMastiffReward"
+    }
+  ],
+  "id": "MeatManor_Spawn",
+  "range": 9.0,
+  "spawnUnitDataList": [
+    "CombatMedicCreepReward",
+    "FlyingTransportReward",
+    "OozeReward",
+    "ExploderReward",
+    "SpawnerReward",
+    "ShadowDemonReward",
+    "V5RocketLauncherReward",
+    "AntiAirReward",
+    "ShadowMastiffReward"
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "02D5C954-4B2B-7E9B-1329-C4B4338902DF": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      -387,
+      -556098
+    ]
+  },
+  "031528F8-4EA2-F2FA-1B7D-A69E31A68C94": {
+    "facing": 2132492194,
+    "kind": "_HQTier5",
+    "player": 2,
+    "position": [
+      688128,
+      589824
+    ]
+  },
+  "04479FF5-45EF-45EC-8E4A-ABA00BEB19B1": {
+    "facing": 0,
+    "kind": "_ForceProjector0",
+    "player": 1,
+    "position": [
+      -835584,
+      262144
+    ]
+  },
+  "0503E62A-4AED-F24F-263D-8C8982BB9777": {
+    "facing": 0,
+    "kind": "_MunitionsFactory1",
+    "player": 1,
+    "position": [
+      -835584,
+      589824
+    ]
+  },
+  "06E83708-4CD9-F78E-FF1C-E7ACEA1CBDE3": {
+    "facing": 0,
+    "kind": "_Bastion0",
+    "player": 2,
+    "position": [
+      540672,
+      262144
+    ]
+  },
+  "0A058F17-46F8-D56B-481C-6686377A27C8": {
+    "facing": 0,
+    "kind": "_Conclave0",
+    "player": 2,
+    "position": [
+      606208,
+      425984
+    ]
+  },
+  "0B8BAB40-42C0-26B1-2F49-26A27A70B73E": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      -552190,
+      581223
+    ]
+  },
+  "1806DF6F-4D36-3231-E858-FEBBB0403D34": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      837,
+      35
+    ]
+  },
+  "25A98C04-4E6A-180D-34AB-7C98894E6FEE": {
+    "facing": 0,
+    "kind": "_MunitionsFactory1",
+    "player": 2,
+    "position": [
+      835584,
+      589824
+    ]
+  },
+  "28C813F4-4202-873D-7351-7AB4888C10B6": {
+    "facing": 0,
+    "kind": "_HangarBay1",
+    "player": 1,
+    "position": [
+      -475136,
+      589824
+    ]
+  },
+  "294EA35A-42BE-4D71-3EBC-18AE0D851D9A": {
+    "facing": 0,
+    "kind": "_IronVault0",
+    "player": 1,
+    "position": [
+      -540672,
+      425984
+    ]
+  },
+  "351C472B-49FE-5991-CA75-118898FB33F5": {
+    "facing": 0,
+    "kind": "_CreationChamber0",
+    "player": 2,
+    "position": [
+      606208,
+      262144
+    ]
+  },
+  "35ADEEF1-4786-4222-6DC1-409AE3DC5330": {
+    "facing": 0,
+    "kind": "_Hellforge0",
+    "player": 1,
+    "position": [
+      -835584,
+      425984
+    ]
+  },
+  "39DD17CA-44F9-C94F-066E-228CA0559843": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      557227,
+      -142
+    ]
+  },
+  "3B75BCCF-49B0-56A7-9795-3E8C3B8808DA": {
+    "facing": 0,
+    "kind": "_ArcshipTier5",
+    "player": 2,
+    "position": [
+      688128,
+      245760
+    ]
+  },
+  "3CAFC293-4B49-169B-F7D0-6F9DA811CE98": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      999,
+      -256
+    ]
+  },
+  "428EB8CD-428F-12D7-D4C0-88ADF3F4F144": {
+    "facing": 0,
+    "kind": "_Mainframe0",
+    "player": 2,
+    "position": [
+      475136,
+      262144
+    ]
+  },
+  "5706EA04-4CBF-A855-9C24-F6A5B8BF9420": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 1,
+    "position": [
+      -606208,
+      360448
+    ]
+  },
+  "5B3EFA9B-4FA5-41B2-0F50-B09BE535D697": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      -557144,
+      -557019
+    ]
+  },
+  "5C29FD43-48D8-AA97-65A7-CCA328EC3EF5": {
+    "facing": 0,
+    "kind": "_RitualChamber0",
+    "player": 2,
+    "position": [
+      901120,
+      425984
+    ]
+  },
+  "60426A60-4D51-7ABB-02F2-10B33FD0F309": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      -557858,
+      588
+    ]
+  },
+  "61F975CB-40AE-6599-9977-CFBF5EED744A": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      -558020,
+      880
+    ]
+  },
+  "6319A0C3-42F5-3888-B0EC-68A6B597E4BA": {
+    "facing": 0,
+    "kind": "_Mainframe0",
+    "player": 1,
+    "position": [
+      -475136,
+      262144
+    ]
+  },
+  "6EF2CC96-43DE-D01F-34C9-1D87E7609288": {
+    "facing": 0,
+    "kind": "_ArcshipTier5",
+    "player": 1,
+    "position": [
+      -688128,
+      245760
+    ]
+  },
+  "70F8CCE4-4309-2112-90CF-AD973A5D29E8": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      558144,
+      557837
+    ]
+  },
+  "7B449BA9-4823-FBB2-5E06-14B105532FC5": {
+    "facing": 0,
+    "kind": "_IronVault0",
+    "player": 2,
+    "position": [
+      540672,
+      425984
+    ]
+  },
+  "7DDF7472-44C1-E3B5-AB87-958803401462": {
+    "facing": 2136407722,
+    "kind": "Stormgate",
+    "player": 2,
+    "position": [
+      589824,
+      98304
+    ]
+  },
+  "8409C1AF-48A6-163C-483A-68AC0F85C398": {
+    "facing": 2055294419,
+    "kind": "AbyssalGateBase",
+    "player": 2,
+    "position": [
+      770048,
+      98304
+    ]
+  },
+  "87658550-472F-EC3D-825D-0FB6C0E561E5": {
+    "facing": 2132492194,
+    "kind": "_HQTier5",
+    "player": 1,
+    "position": [
+      -688128,
+      589824
+    ]
+  },
+  "8C151756-441D-258D-3AD5-CF844AA02F79": {
+    "facing": 0,
+    "kind": "_Bastion0",
+    "player": 1,
+    "position": [
+      -540672,
+      262144
+    ]
+  },
+  "99552161-48D0-4E52-3BFB-66A60B689C0B": {
+    "facing": 0,
+    "kind": "_Purifier0",
+    "player": 1,
+    "position": [
+      -901120,
+      262144
+    ]
+  },
+  "99752FBE-429B-C44F-A936-8E855FE641A1": {
+    "facing": 0,
+    "kind": "_MechBay3",
+    "player": 1,
+    "position": [
+      -540672,
+      589824
+    ]
+  },
+  "9B0B890A-421A-6C9E-F264-9A992FAA2668": {
+    "facing": 0,
+    "kind": "_RitualChamber0",
+    "player": 1,
+    "position": [
+      -901120,
+      425984
+    ]
+  },
+  "9E063E40-460C-0385-408B-978E5CAD0B05": {
+    "facing": 2052191404,
+    "kind": "Stormgate",
+    "player": 1,
+    "position": [
+      -770048,
+      65536
+    ]
+  },
+  "A08921AD-4E13-F01C-F45F-6AA4FD9C3F5F": {
+    "facing": 0,
+    "kind": "_Scrapyard2",
+    "player": 2,
+    "position": [
+      901120,
+      589824
+    ]
+  },
+  "A0B9AFF6-4E3A-BA0F-3921-E288A3794208": {
+    "facing": 0,
+    "kind": "_Purifier0",
+    "player": 2,
+    "position": [
+      901120,
+      262144
+    ]
+  },
+  "A274E885-4179-5447-7782-E8977793E8FE": {
+    "facing": 0,
+    "kind": "_HangarBay1",
+    "player": 2,
+    "position": [
+      475136,
+      589824
+    ]
+  },
+  "A33586CA-403D-0A90-4714-589876859E6A": {
+    "facing": 0,
+    "kind": "_Warforge1",
+    "player": 1,
+    "position": [
+      -770048,
+      589824
+    ]
+  },
+  "A70B1B16-48FA-9DC2-018B-08B76CBCE7DE": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      -549,
+      -555806
+    ]
+  },
+  "AA02C42D-427E-F931-AB0F-37BC388608E8": {
+    "facing": 0,
+    "kind": "_Hellforge0",
+    "player": 2,
+    "position": [
+      835584,
+      425984
+    ]
+  },
+  "AC5861B4-427B-EC83-6D77-65B77032E817": {
+    "facing": 0,
+    "kind": "locationMarkerPlayerStart",
+    "player": 2,
+    "position": [
+      606208,
+      360448
+    ]
+  },
+  "AC684FCD-4170-1631-677A-92BB9B2AD7BE": {
+    "facing": 0,
+    "kind": "_GuardianNexus0",
+    "player": 1,
+    "position": [
+      -770048,
+      262144
+    ]
+  },
+  "AD23FA2C-4B26-F8AF-7EC7-619C938C0B0E": {
+    "facing": 0,
+    "kind": "_Scrapyard2",
+    "player": 1,
+    "position": [
+      -901120,
+      589824
+    ]
+  },
+  "B223191E-4F89-03AF-4351-938515AABA24": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      557389,
+      -434
+    ]
+  },
+  "B3B2A1B7-4BD1-1F00-9C5D-D5B03AD77AC6": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      557484,
+      -556520
+    ]
+  },
+  "BA2BB8B1-45C1-FB16-A600-2E8D17864D70": {
+    "facing": 2027090362,
+    "kind": "AbyssalGateBase",
+    "player": 1,
+    "position": [
+      -589824,
+      65536
+    ]
+  },
+  "BAB91C67-44AD-E77F-97EB-E196D66F9C15": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      558306,
+      557545
+    ]
+  },
+  "C071EBFD-4BBC-2BF1-50A6-039F7199D0E4": {
+    "facing": 0,
+    "kind": "_ShadowCleft0",
+    "player": 2,
+    "position": [
+      770048,
+      425984
+    ]
+  },
+  "C6813B63-41A1-5D8A-42CB-C1BDB3F83ED2": {
+    "facing": 0,
+    "kind": "_TwilightSpire0",
+    "player": 1,
+    "position": [
+      -475136,
+      425984
+    ]
+  },
+  "CB2F3E78-49D0-C1EF-E6CD-D4B30380672B": {
+    "facing": 0,
+    "kind": "_LesserShrine1",
+    "player": 2,
+    "position": [
+      688128,
+      409600
+    ]
+  },
+  "CFDE2BD2-433B-EBBE-74CE-E09A16A96511": {
+    "facing": 0,
+    "kind": "_MechBay3",
+    "player": 2,
+    "position": [
+      540672,
+      589824
+    ]
+  },
+  "D66FAFC2-464D-F48D-F3BA-E3932E2468C3": {
+    "facing": 0,
+    "kind": "_ForceProjector0",
+    "player": 2,
+    "position": [
+      835584,
+      262144
+    ]
+  },
+  "D7289B25-47AF-EAE4-2D21-E7BC81DFC23D": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      -435,
+      558383
+    ]
+  },
+  "D81D61C8-4D10-25DD-FC87-768DA73ED160": {
+    "facing": 0,
+    "kind": "_Warforge1",
+    "player": 2,
+    "position": [
+      770048,
+      589824
+    ]
+  },
+  "DA62D28E-4E45-25BB-2E07-619FC0E04418": {
+    "facing": 0,
+    "kind": "_TwilightSpire0",
+    "player": 2,
+    "position": [
+      475136,
+      425984
+    ]
+  },
+  "DACBD3A1-4057-F180-7B64-8A953B3FB322": {
+    "facing": 0,
+    "kind": "_GuardianNexus0",
+    "player": 2,
+    "position": [
+      770048,
+      262144
+    ]
+  },
+  "E0A3B476-4C32-E3CD-D5A7-4984BE4BD78B": {
+    "facing": 0,
+    "kind": "_ShadowCleft0",
+    "player": 1,
+    "position": [
+      -770048,
+      425984
+    ]
+  },
+  "E180FECF-4720-2871-7646-EA901DB19800": {
+    "facing": 0,
+    "kind": "_Barracks9",
+    "player": 2,
+    "position": [
+      606208,
+      589824
+    ]
+  },
+  "EA379CFA-45E4-2CA2-275B-9AB390272208": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      -557307,
+      -556726
+    ]
+  },
+  "ED0B1D84-45E5-F98F-43CD-AD800CCC7680": {
+    "facing": 0,
+    "kind": "_CreationChamber0",
+    "player": 1,
+    "position": [
+      -606208,
+      262144
+    ]
+  },
+  "EE0F1F9C-4D91-A9FB-9B2B-F88D39239A2A": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 1,
+    "position": [
+      -552352,
+      581515
+    ]
+  },
+  "F40CD930-4C2F-96C9-AF83-4FB79F99620D": {
+    "facing": 0,
+    "kind": "_Conclave0",
+    "player": 1,
+    "position": [
+      -606208,
+      425984
+    ]
+  },
+  "F5323406-42AF-D83B-507E-808BB9F031EF": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      557646,
+      -556810
+    ]
+  },
+  "F9C7E364-431C-9B29-D996-DA8E2BC2E24F": {
+    "facing": 0,
+    "kind": "_Scanner2",
+    "player": 2,
+    "position": [
+      -273,
+      558091
+    ]
+  },
+  "FC9D4677-4416-39E8-4F9F-0984227D4126": {
+    "facing": 0,
+    "kind": "_Barracks9",
+    "player": 1,
+    "position": [
+      -606208,
+      589824
+    ]
+  },
+  "FFD6466D-45C6-DB25-A151-5994F02DFCAC": {
+    "facing": 0,
+    "kind": "_LesserShrine1",
+    "player": 1,
+    "position": [
+      -688128,
+      409600
+    ]
+  },
+  "version": 1
+}

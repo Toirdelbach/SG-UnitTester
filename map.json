@@ -1,0 +1,16 @@
+{
+  "data_format_version": 0,
+  "description": "",
+  "dimensions": [
+    128,
+    128
+  ],
+  "game_mode": "Melee",
+  "gameplay_level_name": "BasicStartingLevel",
+  "id": "baf6a480-4b58-cf06-b141-c583f2a86cba",
+  "map_name": "Unit Tester",
+  "map_tags": [],
+  "tile_set_id": "TerrainTileset_ForestAutumn",
+  "version": "0.1.4",
+  "visibility": "Explored"
+}
