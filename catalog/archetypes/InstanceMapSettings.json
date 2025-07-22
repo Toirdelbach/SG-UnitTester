@@ -1,0 +1,76 @@
+﻿{
+  "based_on": "DefaultMapSettings",
+  "camera_bounds": {
+    "bottom_offset": 15.0,
+    "left_offset": 25.0,
+    "right_offset": 25.0,
+    "top_offset": 15.0
+  },
+  "description": "Unit Tester by RustyShacky v 0.1.6",
+  "id": "InstanceMapSettings",
+  "lighting_settings": "DefaultLightingTOD",
+  "playable_bounds": {
+    "bottom_offset": 4,
+    "left_offset": 4,
+    "right_offset": 4,
+    "top_offset": 6
+  },
+  "player_slots": [
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "factionAttributeDefinition",
+            "locked": true,
+            "value": 2.0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "factionAttributeDefinition",
+            "locked": true,
+            "value": 2.0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 1
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "ai"
+        },
+        "team": {
+          "locked": true,
+          "value": 2
+        }
+      }
+    }
+  ],
+  "tileset": "TerrainTileset_ForestAutumn",
+  "time_of_day": {
+    "scale": 1.0
+  },
+  "title": "Unit Tester"
+}

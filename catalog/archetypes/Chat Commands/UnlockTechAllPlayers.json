@@ -1,0 +1,314 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "General_IfThenElse",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Player_GetTriggeringChatMessage"
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "preset": {
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "String"
+                        },
+                        "value": "!tech"
+                      }
+                    }
+                  ],
+                  "id": "value2"
+                }
+              ]
+            }
+          ],
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "General_IfThenElse",
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Logic_Comparison",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "type": "Variable",
+                              "variable": {
+                                "variable_id": "gvTechUnlockBoolean"
+                              }
+                            }
+                          ],
+                          "id": "value1"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "preset": {
+                                "preset_id": "Logic_ComparisonOperator",
+                                "value_id": "eq"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "id": "op"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "type": "Value",
+                              "value": {
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "type": "Boolean"
+                                },
+                                "value": "false"
+                              }
+                            }
+                          ],
+                          "id": "value2"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": "if"
+                },
+                {
+                  "functions": [
+                    {
+                      "function_id": "PlayerGroup_ForEachPlayerInGroup",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "PlayerGroup_GetAllPlayers"
+                              },
+                              "type": "Function"
+                            }
+                          ],
+                          "id": "players"
+                        }
+                      ],
+                      "sub_functions": [
+                        {
+                          "functions": [
+                            {
+                              "function_id": "TechTree_SetRequirementsEnabled",
+                              "parameters": [
+                                {
+                                  "expressions": [
+                                    {
+                                      "preset": {
+                                        "preset_id": "General_LockUnlock",
+                                        "value_id": "Unlock"
+                                      },
+                                      "type": "Preset"
+                                    }
+                                  ],
+                                  "id": "state"
+                                },
+                                {
+                                  "expressions": [
+                                    {
+                                      "function": {
+                                        "function_id": "PlayerGroup_GetCurrentPlayer"
+                                      },
+                                      "type": "Function"
+                                    }
+                                  ],
+                                  "id": "player"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": "actions"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "Variable_SetVariable",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "type": "Variable",
+                              "variable": {
+                                "variable_id": "gvTechUnlockBoolean"
+                              }
+                            }
+                          ],
+                          "id": "variable"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "type": "Value",
+                              "value": {
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "type": "Boolean"
+                                },
+                                "value": "true"
+                              }
+                            }
+                          ],
+                          "id": "value"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": "Then"
+                },
+                {
+                  "functions": [
+                    {
+                      "function_id": "PlayerGroup_ForEachPlayerInGroup",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "PlayerGroup_GetAllPlayers"
+                              },
+                              "type": "Function"
+                            }
+                          ],
+                          "id": "players"
+                        }
+                      ],
+                      "sub_functions": [
+                        {
+                          "functions": [
+                            {
+                              "function_id": "TechTree_SetRequirementsEnabled",
+                              "parameters": [
+                                {
+                                  "expressions": [
+                                    {
+                                      "preset": {
+                                        "preset_id": "General_LockUnlock",
+                                        "value_id": "Lock"
+                                      },
+                                      "type": "Preset"
+                                    }
+                                  ],
+                                  "id": "state"
+                                },
+                                {
+                                  "expressions": [
+                                    {
+                                      "function": {
+                                        "function_id": "PlayerGroup_GetCurrentPlayer"
+                                      },
+                                      "type": "Function"
+                                    }
+                                  ],
+                                  "id": "player"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": "actions"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "Variable_SetVariable",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "type": "Variable",
+                              "variable": {
+                                "variable_id": "gvTechUnlockBoolean"
+                              }
+                            }
+                          ],
+                          "id": "variable"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "type": "Value",
+                              "value": {
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "type": "Boolean"
+                                },
+                                "value": "false"
+                              }
+                            }
+                          ],
+                          "id": "value"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": "Else"
+                }
+              ]
+            }
+          ],
+          "id": "Then"
+        },
+        {
+          "functions": [],
+          "id": "Else"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "events": [
+    {
+      "function_id": "Player_OnPlayerSendsChatMessage",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "preset": {
+                "preset_id": "Player_AnyPlayer",
+                "value_id": "Any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "id": "player"
+        }
+      ]
+    }
+  ],
+  "id": "UnlockTechAllPlayers"
+}

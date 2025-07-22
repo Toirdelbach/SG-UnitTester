@@ -1,0 +1,134 @@
+﻿{
+  "__base_type": "UnitData",
+  "abilityList": [
+    "UnderConstruction_Celestial",
+    "structureProductionQueueAbilityData",
+    "rallyData",
+    "MeatManor_Spawn"
+  ],
+  "based_on": "BaseUnit_CelestialS",
+  "commandList": [
+    {
+      "ability": "structureProductionQueueAbilityData",
+      "button": "CancelProduction_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier2Transport_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier1Healer_Button",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier2Exploder_Button",
+      "commandIndex": 2,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier1Ooze_Button",
+      "commandIndex": 3,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier3Spawner_Button",
+      "commandIndex": 4,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier3ShadowDemon_Button",
+      "commandIndex": 5,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier2Siege_Button",
+      "commandIndex": 6,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 1,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier2AntiAir_Button",
+      "commandIndex": 7,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 1,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier1ShadowMastiff_Button",
+      "commandIndex": 8,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 1,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "id": "Stormgate",
+  "shroud_radius": 0
+}

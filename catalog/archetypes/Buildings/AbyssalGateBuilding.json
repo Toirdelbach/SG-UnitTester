@@ -1,0 +1,74 @@
+﻿{
+  "__base_type": "UnitData",
+  "abilityList": [
+    "UnderConstruction_Celestial",
+    "structureProductionQueueAbilityData",
+    "rallyData",
+    "MeatManor_Spawn"
+  ],
+  "based_on": "BaseUnit_CelestialS",
+  "commandList": [
+    {
+      "ability": "structureProductionQueueAbilityData",
+      "button": "CancelProduction_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier1CloningMatrix_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier2Avatar_Button",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier1StructureRelic_Button",
+      "commandIndex": 2,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MeatManor_Spawn",
+      "button": "StormgateAbilityCreateTier3Tornado_Button",
+      "commandIndex": 3,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "id": "AbyssalGateBase",
+  "weaponList": []
+}

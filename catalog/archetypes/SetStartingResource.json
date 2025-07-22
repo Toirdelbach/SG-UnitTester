@@ -1,0 +1,223 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "PlayerGroup_ForEachPlayerInGroup",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers"
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "players"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Player_AddPropertyValue",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "Integer"
+                        },
+                        "value": "1000000"
+                      }
+                    }
+                  ],
+                  "id": "value"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetCurrentPlayer"
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "TypeRef",
+                          "type": "PlayerProperty"
+                        },
+                        "value": "PlayerProperty_ResourceA"
+                      }
+                    }
+                  ],
+                  "id": "property"
+                }
+              ]
+            },
+            {
+              "function_id": "Player_AddPropertyValue",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "Integer"
+                        },
+                        "value": "1000000"
+                      }
+                    }
+                  ],
+                  "id": "value"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetCurrentPlayer"
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "TypeRef",
+                          "type": "PlayerProperty"
+                        },
+                        "value": "PlayerProperty_ResourceB"
+                      }
+                    }
+                  ],
+                  "id": "property"
+                }
+              ]
+            },
+            {
+              "function_id": "Player_SetPropertyValue",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "Integer"
+                        },
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "id": "value"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetCurrentPlayer"
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "TypeRef",
+                          "type": "PlayerProperty"
+                        },
+                        "value": "PlayerProperty_SupplyMade"
+                      }
+                    }
+                  ],
+                  "id": "property"
+                }
+              ]
+            },
+            {
+              "function_id": "Player_SetPropertyValue",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "Integer"
+                        },
+                        "value": "-50000"
+                      }
+                    }
+                  ],
+                  "id": "value"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetCurrentPlayer"
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "TypeRef",
+                          "type": "PlayerProperty"
+                        },
+                        "value": "PlayerProperty_SupplyUsed"
+                      }
+                    }
+                  ],
+                  "id": "property"
+                }
+              ]
+            }
+          ],
+          "id": "actions"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [],
+  "dev_only": false,
+  "enabled": true,
+  "events": [
+    {
+      "function_id": "Game_OnMapInitialization",
+      "is_enabled": true
+    }
+  ],
+  "id": "SetStartingResource",
+  "variables": []
+}

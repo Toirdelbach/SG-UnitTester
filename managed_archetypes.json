@@ -1,0 +1,1943 @@
+﻿{
+  "map": {
+    "Scrapyard": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "Salvage",
+        "ScrapyardResearch"
+      ],
+      "armor": 15.0,
+      "based_on": "BaseUnit_VanguardS",
+      "build_cost": {
+        "resource_a": 100.0,
+        "resource_b": 0.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "build_time": 15.0,
+      "commandList": [
+        {
+          "ability": "Salvage",
+          "button": "Salvage_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 5,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "ScrapyardResearch",
+          "button": "SuperWorkerOverchargeUpgrade_Button",
+          "commandIndex": 2,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 2,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "ScrapyardResearch",
+          "button": "ScrapyardDummyUpgrade1_Button",
+          "commandIndex": 3,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 4,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "ScrapyardResearch",
+          "button": "ScrapyardDummyUpgrade2_Button",
+          "commandIndex": 4,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 5,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "ScrapyardResearch",
+          "button": "ScrapyardDummyUpgrade3_Button",
+          "commandIndex": 5,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 4,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "structureProductionQueueAbilityData",
+          "button": "CancelProduction_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 5,
+          "submenu": 0,
+          "targetSubmenu": -1
+        }
+      ],
+      "enabled_unit_tech": [
+        {
+          "unit": "Rampart"
+        }
+      ],
+      "footprint": {
+        "vision_block_height": 0,
+        "x": 4.0,
+        "y": 4.0
+      },
+      "id": "Scrapyard",
+      "name": "pegasus_core|UnitData_name_Scrapyard",
+      "outer_radius": 2.2,
+      "sb_id": "fabrication_hub",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_b"
+      ],
+      "subgroup_priority": 32,
+      "unit_button": "Scrapyard_Button",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_TheriumRefinery.UI_Portrait_Human_Default_TheriumRefinery'",
+      "unreal_actor": "BP_Structure_Human_Scrapyard_00",
+      "vision_height": 0.530309,
+      "vision_radius": 11.0,
+      "vital_health": {
+        "maximum": 800.0,
+        "regen": 0.0,
+        "starting": 800.0
+      }
+    },
+    "_ArcshipTier0": {
+      "based_on": "ArcshipTier1",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": true,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": false,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": true,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_ArcshipTier0",
+      "inner_radius": 0.0,
+      "movement": {
+        "acceleration_time": 0.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": false,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.0,
+        "flocking": {
+          "separation_delay": 0.25,
+          "separation_radius": 0,
+          "separation_strength": 0.5
+        },
+        "idle_pushable": false,
+        "lock_facing": true,
+        "moving_turn_period": 0.0,
+        "pathing_mode": "Ground",
+        "push_priority": 0,
+        "push_priority_same_team": 0,
+        "speed": 0.0,
+        "stationary_turn_period": 0.0,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": true
+      },
+      "outer_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable",
+        "disabled"
+      ],
+      "vision_height": 20.0,
+      "vision_radius": 500.0
+    },
+    "_ArcshipTier4": {
+      "alias_tech": [
+        "_ArcshipTier1",
+        "_ArcshipTier2",
+        "_ArcshipTier3"
+      ],
+      "based_on": "ArcshipTier1",
+      "id": "_ArcshipTier4",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_ArcshipTier5": {
+      "alias_tech": [
+        "_ArcshipTier1",
+        "_ArcshipTier2",
+        "_ArcshipTier3"
+      ],
+      "based_on": "ArcshipTier1",
+      "id": "_ArcshipTier5",
+      "power_produced": 10000.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_Barracks0": {
+      "based_on": "Barracks",
+      "id": "_Barracks0"
+    },
+    "_Barracks1": {
+      "based_on": "Barracks",
+      "id": "_Barracks1",
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10000.0,
+              "stat": "ConstructionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 0,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": ""
+        }
+      ]
+    },
+    "_Barracks2": {
+      "based_on": "Barracks",
+      "id": "_Barracks2",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "heightplane_ground",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Barracks3": {
+      "based_on": "Barracks",
+      "build_cost": {
+        "resource_a": 999999.0,
+        "resource_b": 999999.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "effects": {
+        "birth": "ResourcePickupRefund",
+        "constructed": "ResourcePickupRefund",
+        "creation": "ResourcePickupRefund",
+        "death": "emptyRef",
+        "revenge": "emptyRef"
+      },
+      "id": "_Barracks3"
+    },
+    "_Barracks4": {
+      "based_on": "Barracks",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": true,
+        "untargetable": true,
+        "victory_expansion": false
+      },
+      "id": "_Barracks4",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "heightplane_ground",
+        ""
+      ]
+    },
+    "_Barracks5": {
+      "based_on": "Barracks",
+      "id": "_Barracks5"
+    },
+    "_Barracks6": {
+      "based_on": "Barracks",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": true,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_Barracks6"
+    },
+    "_Barracks7": {
+      "based_on": "Barracks",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_Barracks7"
+    },
+    "_Barracks8": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "rallyData",
+        "BarracksSpawn"
+      ],
+      "based_on": "Barracks",
+      "enabled_unit_tech": [
+        {
+          "unit": "Lancer"
+        },
+        {
+          "unit": "Scout"
+        },
+        {
+          "unit": "MunitionsFactory"
+        },
+        {
+          "unit": "MechBay"
+        },
+        {
+          "unit": "SentryPost"
+        },
+        {
+          "unit": "HQTier2"
+        }
+      ],
+      "id": "_Barracks8",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "heightplane_ground",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Barracks9": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "rallyData",
+        "BarracksSpawn"
+      ],
+      "based_on": "Barracks",
+      "id": "_Barracks9",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "heightplane_ground",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Bastion0": {
+      "based_on": "Bastion",
+      "id": "_Bastion0",
+      "power_consumed": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Conclave0": {
+      "based_on": "Conclave",
+      "id": "_Conclave0",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_CreationChamber0": {
+      "based_on": "CreationChamber",
+      "id": "_CreationChamber0",
+      "power_consumed": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_ForceProjector0": {
+      "based_on": "ForceProjector",
+      "id": "_ForceProjector0",
+      "power_consumed": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_GuardianNexus0": {
+      "based_on": "GuardianNexus",
+      "id": "_GuardianNexus0",
+      "power_consumed": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_HQTier0": {
+      "based_on": "HQTier1",
+      "id": "_HQTier0",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable",
+        "capturable"
+      ],
+      "supply_add": 300.0,
+      "vision_radius": 1000.0
+    },
+    "_HQTier1": {
+      "based_on": "HQTier1",
+      "id": "_HQTier1",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vision_height": 20.0,
+      "vision_radius": 1000.0,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_HQTier2": {
+      "based_on": "HQTier1",
+      "id": "_HQTier2",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vision_height": 20.0,
+      "vision_radius": 1000.0,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_HQTier3": {
+      "based_on": "HQTier1",
+      "enabled_unit_tech": [
+        {
+          "unit": "Worker"
+        },
+        {
+          "unit": "Habitat"
+        },
+        {
+          "unit": "Barracks"
+        },
+        {
+          "unit": "MechBay"
+        },
+        {
+          "unit": "Lancer"
+        }
+      ],
+      "id": "_HQTier3",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "traits": [],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vision_height": 20.0,
+      "vision_radius": 1000.0,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_HQTier4": {
+      "alias_tech": [
+        "_HQ",
+        "_HQ2",
+        "_HQ3"
+      ],
+      "based_on": "HQTier1",
+      "enabled_unit_tech": [
+        {
+          "unit": "Worker"
+        },
+        {
+          "unit": "Habitat"
+        },
+        {
+          "unit": "Barracks"
+        },
+        {
+          "unit": "MechBay"
+        },
+        {
+          "unit": "Lancer"
+        }
+      ],
+      "id": "_HQTier4",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "traits": [],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vision_height": 20.0,
+      "vision_radius": 1000.0,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_HQTier5": {
+      "alias_tech": [
+        "_HQ",
+        "_HQ2",
+        "_HQ3"
+      ],
+      "based_on": "HQTier1",
+      "enabled_unit_tech": [
+        {
+          "unit": "Worker"
+        },
+        {
+          "unit": "Habitat"
+        },
+        {
+          "unit": "Barracks"
+        },
+        {
+          "unit": "MechBay"
+        },
+        {
+          "unit": "Lancer"
+        }
+      ],
+      "id": "_HQTier5",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vision_height": 20.0,
+      "vision_radius": 1000.0,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_Habitat0": {
+      "abilityList": [
+        "UnderConstruction_Vanguard"
+      ],
+      "based_on": "Habitat",
+      "id": "_Habitat0",
+      "supply_add": 300.0
+    },
+    "_Habitat1": {
+      "based_on": "Habitat",
+      "id": "_Habitat1",
+      "supply_add": 300.0
+    },
+    "_Habitat2": {
+      "based_on": "Habitat",
+      "id": "_Habitat2",
+      "vision_radius": 500.0
+    },
+    "_HangarBay0": {
+      "based_on": "HangarBay",
+      "id": "_HangarBay0",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_HangarBay1": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "rallyData",
+        "HangarBaySpawn"
+      ],
+      "based_on": "HangarBay",
+      "id": "_HangarBay1",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Helicarrier0": {
+      "based_on": "Helicarrier",
+      "fog_visibility": "Visible",
+      "id": "_Helicarrier0",
+      "minimap_icon": "Texture2D'/Game/Pegasus/Art/FX/FX_Packs/MagicCircles2/Textures/T_Skull1.T_Skull1'",
+      "movement": {
+        "acceleration_time": 2.0,
+        "collision": {
+          "air": true,
+          "burrowed": false,
+          "ground": false,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.5,
+        "flocking": {
+          "separation_delay": 0.5,
+          "separation_radius": 1.5,
+          "separation_strength": 1.5
+        },
+        "idle_pushable": false,
+        "lock_facing": false,
+        "moving_turn_period": 2.5,
+        "pathing_mode": "Flying",
+        "push_priority": 0,
+        "push_priority_same_team": 1,
+        "speed": 0.0,
+        "stationary_turn_period": 1.0,
+        "turn_radius": 2.0,
+        "turn_without_slowing": false,
+        "unpushable": false
+      },
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_air",
+        "attribute_heavy",
+        "attribute_mechanical",
+        "attribute_ranged",
+        "alliance_enemy",
+        "status_invulnerable",
+        "defensive"
+      ],
+      "traits": [
+        "HelicarrierMoveAndShoot_Trait",
+        "CovertBombersUpgrade_Trait"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10000.0,
+              "stat": "DamagePercentageBonus"
+            },
+            {
+              "amount": 5.0,
+              "stat": "WeaponRangePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 1000000.0,
+              "stat": "AttackSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
+        }
+      ]
+    },
+    "_Hellforge0": {
+      "based_on": "Hellforge",
+      "id": "_Hellforge0",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_IronVault0": {
+      "based_on": "IronVault",
+      "id": "_IronVault0",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_LesserShrine0": {
+      "alias_tech": [
+        "_LesserShrine",
+        "_GreaterShrine",
+        "_ElderShrine"
+      ],
+      "based_on": "LesserShrine",
+      "id": "_LesserShrine0",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_heavy",
+        "attribute_mechanical",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_LesserShrine1": {
+      "alias_tech": [
+        "_LesserShrine",
+        "_ElderShrine",
+        "_GreaterShrine"
+      ],
+      "based_on": "LesserShrine",
+      "id": "_LesserShrine1",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_heavy",
+        "attribute_mechanical",
+        "state_resourcedropoff_a",
+        "state_resourcedropoff_b",
+        "townhall",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "CooldownRatePercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "vital_energy": {
+        "maximum": 50000.0,
+        "regen": 50000.0,
+        "starting": 50000.0
+      }
+    },
+    "_Mainframe0": {
+      "based_on": "Mainframe",
+      "id": "_Mainframe0",
+      "power_consumed": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_MechBay0": {
+      "based_on": "MechBay",
+      "buffs": [
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff",
+        "SolarCharge_Buff"
+      ],
+      "id": "_MechBay0",
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_MechBay1": {
+      "based_on": "MechBay",
+      "id": "_MechBay1"
+    },
+    "_MechBay2": {
+      "based_on": "MechBay",
+      "id": "_MechBay2",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_MechBay3": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "rallyData",
+        "MechBay_Spawn"
+      ],
+      "based_on": "MechBay",
+      "id": "_MechBay3",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_MunitionsFactory0": {
+      "based_on": "MunitionsFactory",
+      "id": "_MunitionsFactory0",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_MunitionsFactory1": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "MunitionsFactoryResearch"
+      ],
+      "based_on": "MunitionsFactory",
+      "id": "_MunitionsFactory1",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Purifier0": {
+      "based_on": "Purifier",
+      "id": "_Purifier0",
+      "power_consumed": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_b",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_ResourceATower2_CapturePoint0": {
+      "based_on": "ResourceATower2_CapturePoint",
+      "id": "_ResourceATower2_CapturePoint0",
+      "time_to_capture": 0.0
+    },
+    "_ResourceATower_CreepCamp0": {
+      "based_on": "ResourceATower_CreepCamp",
+      "creeps": [],
+      "id": "_ResourceATower_CreepCamp0"
+    },
+    "_ResourceBTower_CreepCamp0": {
+      "based_on": "ResourceBTower_CreepCamp",
+      "id": "_ResourceBTower_CreepCamp0"
+    },
+    "_RitualChamber0": {
+      "based_on": "RitualChamber",
+      "id": "_RitualChamber0",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": ""
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Scanner0": {
+      "based_on": "Scanner",
+      "flags": {
+        "alert_when_attacked": false,
+        "award_victory_points_to_other_team": false,
+        "detector": true,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": true,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": false,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": false,
+        "seek_and_destroy": false,
+        "stealth": true,
+        "uncommandable": true,
+        "unselectable": true,
+        "untargetable": true,
+        "victory_expansion": false
+      },
+      "id": "_Scanner0",
+      "movement": {
+        "acceleration_time": 1.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": false,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.25,
+        "flocking": {
+          "separation_delay": 0.25,
+          "separation_radius": 0.5,
+          "separation_strength": 1.5
+        },
+        "idle_pushable": false,
+        "lock_facing": true,
+        "moving_turn_period": 0.13,
+        "pathing_mode": "Flying",
+        "push_priority": 0,
+        "push_priority_same_team": 0,
+        "speed": 0.0,
+        "stationary_turn_period": 0.13,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": true
+      },
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_air",
+        "attribute_mechanical",
+        "attribute_light",
+        "status_hidden"
+      ],
+      "supply_add": 300.0,
+      "supply_cost": 0.0,
+      "traits": [],
+      "vision_radius": 1000.0
+    },
+    "_Scanner1": {
+      "based_on": "Scanner",
+      "flags": {
+        "alert_when_attacked": false,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": true,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": false,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": false,
+        "seek_and_destroy": false,
+        "stealth": true,
+        "uncommandable": true,
+        "unselectable": true,
+        "untargetable": true,
+        "victory_expansion": false
+      },
+      "id": "_Scanner1",
+      "movement": {
+        "acceleration_time": 1.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": false,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.25,
+        "flocking": {
+          "separation_delay": 0.25,
+          "separation_radius": 0.5,
+          "separation_strength": 1.5
+        },
+        "idle_pushable": false,
+        "lock_facing": true,
+        "moving_turn_period": 0.13,
+        "pathing_mode": "Flying",
+        "push_priority": 0,
+        "push_priority_same_team": 0,
+        "speed": 0.0,
+        "stationary_turn_period": 0.13,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": true
+      },
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_air",
+        "attribute_mechanical",
+        "attribute_light",
+        "status_hidden"
+      ],
+      "supply_add": 300.0,
+      "supply_cost": 0.0,
+      "traits": [],
+      "vision_radius": 1000.0
+    },
+    "_Scanner2": {
+      "based_on": "Scanner",
+      "flags": {
+        "alert_when_attacked": false,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": true,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": false,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": false,
+        "seek_and_destroy": false,
+        "stealth": true,
+        "uncommandable": true,
+        "unselectable": true,
+        "untargetable": true,
+        "victory_expansion": false
+      },
+      "id": "_Scanner2",
+      "movement": {
+        "acceleration_time": 1.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": false,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.25,
+        "flocking": {
+          "separation_delay": 0.25,
+          "separation_radius": 0.5,
+          "separation_strength": 1.5
+        },
+        "idle_pushable": false,
+        "lock_facing": true,
+        "moving_turn_period": 0.13,
+        "pathing_mode": "Flying",
+        "push_priority": 0,
+        "push_priority_same_team": 0,
+        "speed": 0.0,
+        "stationary_turn_period": 0.13,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": true
+      },
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_air",
+        "attribute_mechanical",
+        "attribute_light",
+        "status_hidden",
+        "status_invulnerable"
+      ],
+      "supply_add": 300.0,
+      "supply_cost": 0.0,
+      "traits": [],
+      "vision_radius": 1000.0
+    },
+    "_Scrapyard0": {
+      "based_on": "Scrapyard",
+      "build_cost": {
+        "resource_a": 999999.0,
+        "resource_b": 999999.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "effects": {
+        "birth": "emptyRef",
+        "constructed": "emptyRef",
+        "creation": "emptyRef",
+        "death": "ResourcePickupRefund",
+        "revenge": "emptyRef"
+      },
+      "id": "_Scrapyard0",
+      "vital_health": {
+        "maximum": 800.0,
+        "regen": -50000.0,
+        "starting": 800.0
+      }
+    },
+    "_Scrapyard1": {
+      "based_on": "Scrapyard",
+      "id": "_Scrapyard1",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_b",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Scrapyard2": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "ScrapyardResearch"
+      ],
+      "based_on": "Scrapyard",
+      "id": "_Scrapyard2",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "state_resourcedropoff_b",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_SentryPost0": {
+      "based_on": "SentryPost",
+      "build_cost": {
+        "resource_a": 10000.0,
+        "resource_b": 10000.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "effects": {
+        "birth": "ResourcePickupRefund",
+        "constructed": "ResourcePickupRefund",
+        "creation": "ResourcePickupRefund",
+        "death": "emptyRef",
+        "revenge": "emptyRef"
+      },
+      "id": "_SentryPost0"
+    },
+    "_SentryPost1": {
+      "based_on": "SentryPost",
+      "build_cost": {
+        "resource_a": 50000.0,
+        "resource_b": 0.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "effects": {
+        "birth": "emptyRef",
+        "constructed": "emptyRef",
+        "creation": "BaseGameEffectRefund",
+        "death": "emptyRef",
+        "revenge": "emptyRef"
+      },
+      "id": "_SentryPost1"
+    },
+    "_ShadowCleft0": {
+      "based_on": "ShadowCleft",
+      "id": "_ShadowCleft0",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Shadow_3v3_DemonCreep0": {
+      "based_on": "Shadow_3v3_DemonCreep",
+      "behaviors": [
+        ""
+      ],
+      "id": "_Shadow_3v3_DemonCreep0"
+    },
+    "_TributePyre0": {
+      "based_on": "TributePyre",
+      "id": "_TributePyre0",
+      "supply_add": 300.0
+    },
+    "_TwilightSpire0": {
+      "based_on": "TwilightSpire",
+      "id": "_TwilightSpire0",
+      "shroud_radius": 0.0,
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ChargeRegenRatePercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Warforge0": {
+      "based_on": "Warforge",
+      "id": "_Warforge0",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_Warforge1": {
+      "abilityList": [
+        "UnderConstruction_Vanguard",
+        "structureProductionQueueAbilityData",
+        "Warforge_Research"
+      ],
+      "based_on": "Warforge",
+      "id": "_Warforge1",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "preventdefeat_elimination",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "status_invulnerable"
+      ],
+      "veterancy_starting_tier": 1,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 100000.0,
+              "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+            }
+          ],
+          "threshold": 1,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": "BP_FXI_WorkerOvercharge"
+        }
+      ],
+      "veterancy_vxp_weight": 1
+    },
+    "_resourceA0": {
+      "based_on": "resourceA",
+      "id": "_resourceA0",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "status_invulnerable"
+      ]
+    }
+  }
+}
