@@ -1,0 +1,95 @@
+{
+  "__base_type": "Function",
+  "based_on": "Function",
+  "editor_config": {
+    "icon": "",
+    "node": "ActionEditorNode"
+  },
+  "grammar_text": "Give all control cheats to player {player}",
+  "hint_text": "Grants full control cheats to the selected player.",
+  "id": "Player_GrantPerk",
+  "name": "Player - Add Cheat All Control",
+  "options": {
+    "is_async": false,
+    "is_deprecated": false,
+    "is_expression_only": false,
+    "is_hidden": false,
+    "is_implemented": true,
+    "is_inline": false,
+    "is_native": true,
+    "is_template": false
+  },
+  "parameters": [
+    {
+      "allow_multiple": false,
+      "allowed_presets": [],
+      "default_values": [
+        {
+          "function": {
+            "function_id": "",
+            "is_enabled": true,
+            "parameters": [],
+            "sub_functions": []
+          },
+          "preset": {
+            "preset_id": "",
+            "value_id": ""
+          },
+          "script": "",
+          "type": "Value",
+          "value": {
+            "type": {
+              "directive": "FunctionType",
+              "implements": "",
+              "inner_type": "",
+              "param_id": "",
+              "sub_directive": "None",
+              "tags": [],
+              "type": "Player"
+            },
+            "value": "1"
+          },
+          "variable": {
+            "indices": [],
+            "variable_id": ""
+          }
+        }
+      ],
+      "hint_text": "The player receiving all control cheats.",
+      "id": "player",
+      "inline_separator": "",
+      "is_callable": false,
+      "is_this": false,
+      "name": "Player",
+      "type": {
+        "directive": "FunctionType",
+        "implements": "",
+        "inner_type": "",
+        "param_id": "",
+        "sub_directive": "None",
+        "tags": [],
+        "type": "Player"
+      }
+    }
+  ],
+  "path": "Player",
+  "return_type": {
+    "directive": "None",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "tags": [],
+    "type": ""
+  },
+  "script": "",
+  "script_id": "Shim::Player::add_cheat_all_control",
+  "sub_functions": [],
+  "template_options": {
+    "actions": [],
+    "id": null,
+    "rules": [],
+    "scope": "Value"
+  },
+  "type": "Action"
+}
