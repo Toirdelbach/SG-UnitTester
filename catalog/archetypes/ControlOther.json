@@ -7,7 +7,7 @@
   },
   "grammar_text": "Give all control cheats to player {player}",
   "hint_text": "Grants full control cheats to the selected player.",
-  "id": "Player_GrantPerk",
+  "id": "Player_AddCheatAllControl",
   "name": "Player - Add Cheat All Control",
   "options": {
     "is_async": false,
