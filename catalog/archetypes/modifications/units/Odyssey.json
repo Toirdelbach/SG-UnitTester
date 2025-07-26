@@ -1,0 +1,380 @@
+{
+  "__base_type": "UnitData",
+  "abilityList": [
+    "attackData",
+    "moveData",
+    "stopData",
+    "holdPositionData",
+    "HelicarrierMagazine",
+    "HelicarrierBomberLaunch",
+    "structureProductionQueueAbilityData",
+    "ReturnToHangar"
+  ],
+  "additional_black_mask_vision_radius": 5.0,
+  "alias_tech": [],
+  "armor": 20.0,
+  "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Vanguard_Vehicle_Heavy.UI_Icons_Armor_Vanguard_Vehicle_Heavy'",
+  "armor_name": "pegasus_core|ArmorName_VanguardPlating",
+  "attack_target_priority": 20,
+  "based_on": "BaseUnit_VanguardU",
+  "behaviors": [],
+  "buffs": [],
+  "build_cost": {
+    "resource_a": 300.0,
+    "resource_b": 250.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "build_time": 0.2,
+  "cargo_size": "Eight",
+  "cascade_field_radius": 0,
+  "commandList": [
+    {
+      "ability": "attackData",
+      "button": "AttackButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "stopData",
+      "button": "StopButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "holdPositionData",
+      "button": "HoldPositionButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "moveData",
+      "button": "MoveButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "moveData",
+      "button": "PatrolButton",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "HelicarrierMagazine",
+      "button": "InterceptorBomber_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "HelicarrierBomberLaunch",
+      "button": "HelicarrierBomberLaunch_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "ReturnToHangar",
+      "button": "ReturnToHangar_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "construction_set_sfx": "OnConstructionSet",
+  "damage_response": "Acquire_or_Flee",
+  "default_acquire_level": "Offensive",
+  "default_control_groups": [
+    1,
+    3
+  ],
+  "effects": {
+    "birth": "emptyRef",
+    "constructed": "emptyRef",
+    "creation": "emptyRef",
+    "death": "emptyRef",
+    "revenge": "emptyRef"
+  },
+  "enabled_unit_tech": [],
+  "energy_type": "Energy",
+  "expiration_time": 60.0,
+  "faction": "Vanguard",
+  "fidget": {
+    "delay_maximum": 30.0,
+    "delay_minimum": 10.0,
+    "turning_angle": 90.0,
+    "turning_duration": 1.0,
+    "weights": {
+      "animate": 33.0,
+      "idle": 66.0,
+      "turn": 0.0
+    }
+  },
+  "flags": {
+    "alert_when_attacked": true,
+    "award_victory_points_to_other_team": false,
+    "detector": false,
+    "display_ui_description": false,
+    "has_prime_structure": false,
+    "hologram": false,
+    "overlap_resource_a": false,
+    "receives_veterancy_from_kills": true,
+    "requires_cascade_field": false,
+    "requires_cascade_field_to_morph": true,
+    "seek_and_destroy": false,
+    "stealth": false,
+    "uncommandable": false,
+    "unselectable": false,
+    "untargetable": false,
+    "victory_expansion": false
+  },
+  "fog_visibility": "Hidden",
+  "footprint": {
+    "angled": false,
+    "clumpable": false,
+    "snap": true,
+    "unbuildable": false,
+    "vision_block_height": 0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "global_energy": "emptyRef",
+  "global_resource_overrides": [],
+  "height": 4.5,
+  "id": "Odyssey",
+  "inner_radius": 0.8,
+  "minimap_icon": "",
+  "minimap_icon_custom_color": "FFFFFFFF",
+  "minimap_icon_no_color_override": false,
+  "minimap_icon_size": 16.0,
+  "minimap_icon_upper_layer": false,
+  "minimap_icon_use_heading": false,
+  "minimap_icon_use_team_color": false,
+  "minimap_material_instance": "",
+  "minimap_widget": "",
+  "movement": {
+    "acceleration_time": 2.0,
+    "collision": {
+      "air": true,
+      "burrowed": false,
+      "ground": false,
+      "ground_tall": false,
+      "item": false,
+      "worker": false
+    },
+    "deceleration_time": 0.5,
+    "flocking": {
+      "separation_delay": 0.5,
+      "separation_radius": 0,
+      "separation_strength": 1.5
+    },
+    "idle_pushable": false,
+    "lock_facing": false,
+    "moving_turn_period": 0.5,
+    "pathing_mode": "Flying",
+    "push_priority": 0,
+    "push_priority_same_team": 1,
+    "speed": 2.5,
+    "stationary_turn_period": 0.5,
+    "turn_radius": 2.0,
+    "turn_without_slowing": false,
+    "unpushable": false
+  },
+  "name": "pegasus_heroes|UnitData_name_Odyssey",
+  "num_corpses": 1,
+  "outer_radius": 1.5,
+  "placed_name": "",
+  "power_consumed": 0.0,
+  "power_produced": 0.0,
+  "responses": [],
+  "sb_id": "Helli Carrier",
+  "selection_alias": "",
+  "show_name_on_hover": false,
+  "shroud_radius": 0.0,
+  "sound_cooldown_data_list": [
+    "BaseSoundCooldownData_Unit_Attack",
+    "BaseSoundCooldownData_Unit_AttackGround",
+    "BaseSoundCooldownData_Unit_AttackMove",
+    "BaseSoundCooldownData_Unit_AttackStructure",
+    "BaseSoundCooldownData_Unit_Build",
+    "BaseSoundCooldownData_Unit_Follow",
+    "BaseSoundCooldownData_Unit_Harvest",
+    "BaseSoundCooldownData_Unit_Hold",
+    "BaseSoundCooldownData_Unit_Morph",
+    "BaseSoundCooldownData_Unit_Move",
+    "BaseSoundCooldownData_Unit_Patrol",
+    "BaseSoundCooldownData_Unit_Rally",
+    "BaseSoundCooldownData_Unit_Selection",
+    "BaseSoundCooldownData_Unit_Stop",
+    "BaseSoundCooldownData_Unit_Trained",
+    "BaseSoundCooldownData_Unit_UnderConstruction"
+  ],
+  "starting_snowtags": [
+    "entity_unit",
+    "heightplane_air",
+    "attribute_heavy",
+    "attribute_mechanical",
+    "attribute_ranged"
+  ],
+  "subgroup_priority": 119,
+  "supply_add": 0.0,
+  "supply_cost": 14.0,
+  "targeting_participation_alias": [],
+  "traits": [
+    "HelicarrierMoveAndShoot_Trait",
+    "CovertBombersUpgrade_Trait"
+  ],
+  "turret_list": [],
+  "ui_flags": {
+    "callout_attacks_air": false,
+    "callout_attacks_ground": true
+  },
+  "ui_kind": "unit",
+  "unit_button": "Odyssey_Button",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Devastator.UI_Portrait_Human_Default_Devastator'",
+  "unreal_actor": "BP_UH_Odyssey_00",
+  "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+  "veterancy_data": "BaseVeterancyData",
+  "veterancy_given_on_death": 1400,
+  "veterancy_starting_tier": 0,
+  "veterancy_tiers": [
+    {
+      "stat_modifiers": [
+        {
+          "amount": 120.0,
+          "stat": "HealthMaxAdditiveBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "DamagePercentageBonus"
+        },
+        {
+          "amount": 5.0,
+          "stat": "ArmorScaledAdditiveBonus"
+        }
+      ],
+      "threshold": 2800,
+      "tier_up_effect": "emptyRef",
+      "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 120.0,
+          "stat": "HealthMaxAdditiveBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "DamagePercentageBonus"
+        },
+        {
+          "amount": 5.0,
+          "stat": "ArmorScaledAdditiveBonus"
+        }
+      ],
+      "threshold": 7000,
+      "tier_up_effect": "emptyRef",
+      "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 120.0,
+          "stat": "HealthMaxAdditiveBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "DamagePercentageBonus"
+        },
+        {
+          "amount": 5.0,
+          "stat": "ArmorScaledAdditiveBonus"
+        }
+      ],
+      "threshold": 12600,
+      "tier_up_effect": "emptyRef",
+      "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
+    }
+  ],
+  "veterancy_vxp_weight": 1,
+  "victory_points": 0.0,
+  "vision_height": 20.0,
+  "vision_radius": 15.0,
+  "vital_energy": {
+    "maximum": 0.0,
+    "regen": 0.0,
+    "starting": 0.0
+  },
+  "vital_health": {
+    "maximum": 500.0,
+    "regen": 0.0,
+    "starting": 500.0
+  },
+  "vital_out_shroud_deduction_energy_flat": 0.0,
+  "vital_out_shroud_deduction_energy_multiplier": 0.0,
+  "vital_out_shroud_deduction_health_flat": 0.0,
+  "vital_out_shroud_deduction_health_multiplier": 0.0,
+  "vital_out_shroud_deduction_shield_flat": 0.0,
+  "vital_out_shroud_deduction_shield_multiplier": 0.0,
+  "vital_shield": {
+    "maximum": 0.0,
+    "regen": 0.0,
+    "starting": 0.0
+  },
+  "vital_shroud_bonus_energy_flat": 0.0,
+  "vital_shroud_bonus_energy_multiplier": 0.0,
+  "vital_shroud_bonus_health_flat": 0.0,
+  "vital_shroud_bonus_health_multiplier": 0.0,
+  "vital_shroud_bonus_shield_flat": 0.0,
+  "vital_shroud_bonus_shield_multiplier": 0.0,
+  "vital_shroud_combat_delay": 5.0,
+  "vitals_force_hide": false,
+  "weaponList": [
+    "Odyssey_Weapon"
+  ]
+}

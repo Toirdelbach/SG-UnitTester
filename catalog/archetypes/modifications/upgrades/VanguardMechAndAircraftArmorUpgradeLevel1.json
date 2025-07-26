@@ -1,0 +1,109 @@
+{
+  "__base_type": "UpgradeData",
+  "based_on": "UpgradeData",
+  "button": "VanguardMechAndAircraftArmorUpgradeLevel1_Button",
+  "create_alert_on_complete": true,
+  "flags": {
+    "shared_with_team": false
+  },
+  "id": "VanguardMechAndAircraftArmorUpgradeLevel1",
+  "name": "pegasus_core|Vanguard Mech and Aircraft Armor Upgrade Level 1",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "research_time": 0.0,
+  "resource_cost": {
+    "resource_a": 100.0,
+    "resource_b": 100.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "set_values": [
+    {
+      "target_archetype": "MissileJeep",
+      "target_command_index": 0,
+      "target_property": "armor",
+      "target_value": 10.0
+    },
+    {
+      "target_archetype": "Vulcan",
+      "target_command_index": 0,
+      "target_property": "armor",
+      "target_value": 10.0
+    },
+    {
+      "target_archetype": "ArtilleryMech",
+      "target_command_index": 0,
+      "target_property": "armor",
+      "target_value": 10.0
+    },
+    {
+      "target_archetype": "ArtilleryMechDeployed",
+      "target_command_index": 0,
+      "target_property": "armor",
+      "target_value": 10.0
+    },
+    {
+      "target_archetype": "Battlebomber",
+      "target_command_index": 0,
+      "target_property": "armor",
+      "target_value": 10.0
+    },
+    {
+      "target_archetype": "Evac",
+      "target_command_index": 0,
+      "target_property": "armor",
+      "target_value": 10.0
+    },
+    {
+      "target_archetype": "OrbitalPlatform",
+      "target_command_index": 0,
+      "target_property": "armor",
+      "target_value": 10.0
+    },
+    {
+      "target_archetype": "MissileJeep",
+      "target_command_index": 0,
+      "target_property": "vital_health.regen",
+      "target_value": 0.3
+    },
+    {
+      "target_archetype": "Vulcan",
+      "target_command_index": 0,
+      "target_property": "vital_health.regen",
+      "target_value": 0.6
+    },
+    {
+      "target_archetype": "ArtilleryMech",
+      "target_command_index": 0,
+      "target_property": "vital_health.regen",
+      "target_value": 0.6
+    },
+    {
+      "target_archetype": "ArtilleryMechDeployed",
+      "target_command_index": 0,
+      "target_property": "vital_health.regen",
+      "target_value": 0.6
+    },
+    {
+      "target_archetype": "Battlebomber",
+      "target_command_index": 0,
+      "target_property": "vital_health.regen",
+      "target_value": 0.6
+    },
+    {
+      "target_archetype": "Evac",
+      "target_command_index": 0,
+      "target_property": "vital_health.regen",
+      "target_value": 0.3
+    },
+    {
+      "target_archetype": "OrbitalPlatform",
+      "target_command_index": 0,
+      "target_property": "vital_health.regen",
+      "target_value": 0.4
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

@@ -1,0 +1,37 @@
+{
+  "__base_type": "UpgradeData",
+  "based_on": "UpgradeData",
+  "button": "ReloadUpgrade_Button",
+  "create_alert_on_complete": true,
+  "flags": {
+    "shared_with_team": false
+  },
+  "id": "ReloadUpgrade",
+  "name": "pegasus_core|UpgradeData_name_ReloadUpgrade",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "research_time": 0.0,
+  "resource_cost": {
+    "resource_a": 100.0,
+    "resource_b": 100.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "set_values": [
+    {
+      "target_archetype": "Argent",
+      "target_command_index": 0,
+      "target_property": "vital_energy.starting",
+      "target_value": 20.0
+    },
+    {
+      "target_archetype": "Argent",
+      "target_command_index": 0,
+      "target_property": "vital_energy.maximum",
+      "target_value": 20.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

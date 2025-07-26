@@ -1,0 +1,37 @@
+{
+  "__base_type": "UpgradeData",
+  "based_on": "UpgradeData",
+  "button": "WildFireUpgrade_Button",
+  "create_alert_on_complete": true,
+  "flags": {
+    "shared_with_team": false
+  },
+  "id": "WildFireUpgrade",
+  "name": "pegasus_3v3|UpgradeData_name_WildFireUpgrade",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "research_time": 0.0,
+  "resource_cost": {
+    "resource_a": 0.0,
+    "resource_b": 50.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "set_values": [
+    {
+      "target_archetype": "Wildfire_Unit",
+      "target_command_index": 0,
+      "target_property": "movement.speed",
+      "target_value": 2.0
+    },
+    {
+      "target_archetype": "WildFireUnit_BuffKillSelf",
+      "target_command_index": 0,
+      "target_property": "duration",
+      "target_value": 5.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

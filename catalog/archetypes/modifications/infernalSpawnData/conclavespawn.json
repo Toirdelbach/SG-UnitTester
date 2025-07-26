@@ -1,0 +1,60 @@
+{
+  "commands": [
+    {
+      "charges": {
+        "max_count": 3,
+        "name": "InfernalTrainingConclave",
+        "recharge_duration": 0.1,
+        "starting_count": 1
+      },
+      "requirement": "CompletedConclave_Requirement",
+      "spawn_count": 2,
+      "unit": "Gaunt"
+    },
+    {
+      "charges": {
+        "max_count": 3,
+        "name": "InfernalTrainingConclave",
+        "recharge_duration": 0.1,
+        "starting_count": 1
+      },
+      "requirement": "CompletedConclaveANDCompletedRitualChamber_Requirement",
+      "spawn_count": 1,
+      "unit": "Hag"
+    },
+    {
+      "charges": {
+        "max_count": 3,
+        "name": "InfernalTrainingConclave",
+        "recharge_duration": 0.1,
+        "starting_count": 1
+      },
+      "requirement": "CompletedConclaveANDCompletedGreaterShrine_Requirement",
+      "spawn_count": 1,
+      "unit": "Weaver"
+    },
+    {
+      "charges": {
+        "max_count": 0,
+        "name": "default",
+        "recharge_duration": 0.1,
+        "starting_count": 0
+      },
+      "requirement": "CompletedElderShrine_Requirement",
+      "spawn_count": 1,
+      "unit": "Shade"
+    },
+    {
+      "charges": {
+        "max_count": 3,
+        "name": "InfernalTrainingConclave",
+        "recharge_duration": 0.1,
+        "starting_count": 1
+      },
+      "requirement": "CompletedConclave_Requirement",
+      "spawn_count": 1,
+      "unit": "Hecubah"
+    }
+  ],
+  "id": "Conclave_Spawn"
+}
