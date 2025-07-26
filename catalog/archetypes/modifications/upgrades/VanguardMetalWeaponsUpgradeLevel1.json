@@ -1,0 +1,91 @@
+{
+  "__base_type": "UpgradeData",
+  "based_on": "UpgradeData",
+  "button": "VanguardMetalWeaponsUpgradeLevel1_Button",
+  "create_alert_on_complete": true,
+  "flags": {
+    "shared_with_team": false
+  },
+  "id": "VanguardMetalWeaponsUpgradeLevel1",
+  "name": "pegasus_core|Vanguard Metal Weapons Upgrade Level 1",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "research_time": 0.0,
+  "resource_cost": {
+    "resource_a": 100.0,
+    "resource_b": 100.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "set_values": [
+    {
+      "target_archetype": "Scout_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "ScoutLightTagBonus",
+      "target_command_index": 0,
+      "target_property": "bonus",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "Gunner_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 2.0
+    },
+    {
+      "target_archetype": "DoubleTime_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 2.0
+    },
+    {
+      "target_archetype": "MissileJeep_WeaponGround_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "MissileJeep_WeaponAir_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "JeepHeavyTagBonus",
+      "target_command_index": 0,
+      "target_property": "bonus",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "Vulcan_Weapon_Damage1",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "Vulcan_Weapon_Damage1_TagBonusLight",
+      "target_command_index": 0,
+      "target_property": "bonus",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "Battlebomber_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 3.0
+    },
+    {
+      "target_archetype": "Lancer_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 2.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

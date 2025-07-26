@@ -1,0 +1,37 @@
+{
+  "__base_type": "UpgradeData",
+  "based_on": "UpgradeData",
+  "button": "DarknessSpreadsUpgrade_Button",
+  "create_alert_on_complete": true,
+  "flags": {
+    "shared_with_team": false
+  },
+  "id": "DarknessSpreadsUpgrade",
+  "name": "pegasus_core|UpgradeData_name_DarknessSpreadsUpgrade",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "research_time": 0.0,
+  "resource_cost": {
+    "resource_a": 100.0,
+    "resource_b": 100.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "set_values": [],
+  "supply_provided": 0.0,
+  "unit_modifiers": [
+    {
+      "modifiers": [
+        {
+          "amount": 50.0,
+          "stat_mod": "ShroudRadiusPercentageAdditiveMultiplier"
+        }
+      ],
+      "tag_filter": {
+        "excluded": [],
+        "required": []
+      }
+    }
+  ]
+}

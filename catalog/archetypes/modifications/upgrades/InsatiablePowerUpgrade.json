@@ -1,0 +1,55 @@
+{
+  "__base_type": "UpgradeData",
+  "based_on": "BaseUpgradeData",
+  "button": "emptyRef",
+  "create_alert_on_complete": true,
+  "flags": {
+    "shared_with_team": false
+  },
+  "id": "InsatiablePowerUpgrade",
+  "name": "",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "research_time": 0.0,
+  "resource_cost": {
+    "resource_a": 0.0,
+    "resource_b": 0.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "set_values": [
+    {
+      "target_archetype": "ArkhosArcshipTier1Flying",
+      "target_command_index": 0,
+      "target_property": "power_produced",
+      "target_value": 2.5
+    },
+    {
+      "target_archetype": "ArkhosArcshipTier2Flying",
+      "target_command_index": 0,
+      "target_property": "power_produced",
+      "target_value": 3.75
+    },
+    {
+      "target_archetype": "ArkhosArcshipTier3Flying",
+      "target_command_index": 0,
+      "target_property": "power_produced",
+      "target_value": 5.0
+    },
+    {
+      "target_archetype": "PowerBank",
+      "target_command_index": 0,
+      "target_property": "power_produced",
+      "target_value": 3.75
+    },
+    {
+      "target_archetype": "ArkhosArcshipTier1",
+      "target_command_index": 0,
+      "target_property": "power_produced",
+      "target_value": 2.5
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

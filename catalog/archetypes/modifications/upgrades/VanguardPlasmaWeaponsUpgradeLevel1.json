@@ -1,0 +1,67 @@
+{
+  "__base_type": "UpgradeData",
+  "based_on": "UpgradeData",
+  "button": "VanguardPlasmaWeaponsUpgradeLevel1_Button",
+  "create_alert_on_complete": true,
+  "flags": {
+    "shared_with_team": false
+  },
+  "id": "VanguardPlasmaWeaponsUpgradeLevel1",
+  "name": "pegasus_core|Vanguard Plasma Weapons Upgrade Level 1",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "research_time": 0.0,
+  "resource_cost": {
+    "resource_a": 100.0,
+    "resource_b": 100.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "set_values": [
+    {
+      "target_archetype": "Empath_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 2.0
+    },
+    {
+      "target_archetype": "EmpathLightTagBonus",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "MedTech_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    },
+    {
+      "target_archetype": "ArtilleryMech_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 3.0
+    },
+    {
+      "target_archetype": "ArtilleryMechDeployed_Weapon_DamageRadius",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 7.0
+    },
+    {
+      "target_archetype": "ArilleryMechDeployedHeavyTagBonus",
+      "target_command_index": 0,
+      "target_property": "bonus",
+      "target_value": 4.0
+    },
+    {
+      "target_archetype": "OrbitalPlatform_Weapon_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}
