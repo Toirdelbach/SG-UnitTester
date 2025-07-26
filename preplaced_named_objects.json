@@ -71,6 +71,15 @@
       35
     ]
   },
+  "1A25C1F3-4FE8-306C-B773-2EB625962921": {
+    "facing": 1985735876,
+    "kind": "CreationChamber",
+    "player": 1,
+    "position": [
+      -802816,
+      -638976
+    ]
+  },
   "25A98C04-4E6A-180D-34AB-7C98894E6FEE": {
     "facing": 0,
     "kind": "_MunitionsFactory1",
@@ -116,6 +125,15 @@
       425984
     ]
   },
+  "36B3AB22-4AA8-C7C2-1467-79BBE397E042": {
+    "facing": 244391161,
+    "kind": "Bastion",
+    "player": 1,
+    "position": [
+      -589824,
+      -655360
+    ]
+  },
   "39DD17CA-44F9-C94F-066E-228CA0559843": {
     "facing": 0,
     "kind": "_Scanner2",
@@ -143,6 +161,15 @@
       -256
     ]
   },
+  "3F9527B0-44B4-A973-DECE-6FA50B8CEAB6": {
+    "facing": 216406521,
+    "kind": "MechBay",
+    "player": 0,
+    "position": [
+      -688128,
+      -311296
+    ]
+  },
   "428EB8CD-428F-12D7-D4C0-88ADF3F4F144": {
     "facing": 0,
     "kind": "_Mainframe0",
@@ -150,6 +177,15 @@
     "position": [
       475136,
       262144
+    ]
+  },
+  "53135347-4368-732C-D445-3287821DDC25": {
+    "facing": 238361721,
+    "kind": "HangarBay",
+    "player": 1,
+    "position": [
+      -573440,
+      -409600
     ]
   },
   "5706EA04-4CBF-A855-9C24-F6A5B8BF9420": {
@@ -204,6 +240,15 @@
     "position": [
       -475136,
       262144
+    ]
+  },
+  "6B7177B2-4096-5935-8343-EA9C4FB9BF7B": {
+    "facing": 586630639,
+    "kind": "MechBay",
+    "player": 1,
+    "position": [
+      -688128,
+      -409600
     ]
   },
   "6EF2CC96-43DE-D01F-34C9-1D87E7609288": {
@@ -269,6 +314,15 @@
       262144
     ]
   },
+  "94F30806-431F-F24E-30D9-E688DAFABD08": {
+    "facing": 859727464,
+    "kind": "Barracks",
+    "player": 1,
+    "position": [
+      -786432,
+      -393216
+    ]
+  },
   "99552161-48D0-4E52-3BFB-66A60B689C0B": {
     "facing": 0,
     "kind": "_Purifier0",
@@ -294,6 +348,24 @@
     "position": [
       -901120,
       425984
+    ]
+  },
+  "9B91FF1C-4230-B160-0AB4-22A6A12CE3B3": {
+    "facing": 209197306,
+    "kind": "TwilightSpire",
+    "player": 1,
+    "position": [
+      -573440,
+      -524288
+    ]
+  },
+  "9C544441-4D36-A814-44D1-29B151A81EA8": {
+    "facing": 192878330,
+    "kind": "RitualChamber",
+    "player": 1,
+    "position": [
+      -671744,
+      -524288
     ]
   },
   "9E063E40-460C-0385-408B-978E5CAD0B05": {
@@ -350,6 +422,15 @@
       -555806
     ]
   },
+  "A7194132-4C66-583B-261F-B6AF98B44536": {
+    "facing": 946827493,
+    "kind": "Barracks",
+    "player": 0,
+    "position": [
+      -770048,
+      -294912
+    ]
+  },
   "AA02C42D-427E-F931-AB0F-37BC388608E8": {
     "facing": 0,
     "kind": "_Hellforge0",
@@ -357,6 +438,15 @@
     "position": [
       835584,
       425984
+    ]
+  },
+  "AA86BA49-4E94-5F74-D1ED-489268741EE0": {
+    "facing": 918777190,
+    "kind": "IronVault",
+    "player": 1,
+    "position": [
+      -786432,
+      -507904
     ]
   },
   "AC5861B4-427B-EC83-6D77-65B77032E817": {
@@ -546,6 +636,15 @@
     "position": [
       -552352,
       581515
+    ]
+  },
+  "F3D059D6-46B1-42C4-657A-D58D6CBA6A34": {
+    "facing": 1180667098,
+    "kind": "Mainframe",
+    "player": 1,
+    "position": [
+      -704512,
+      -655360
     ]
   },
   "F40CD930-4C2F-96C9-AF83-4FB79F99620D": {

@@ -1,0 +1,1766 @@
+[
+  {
+    "id": "TargetStructure",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArkhosArcshipTier3Flying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HellborneForge",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ChimeraSpire",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MeatManorReward",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CreationChamber",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SparkNodeKastiel",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BurningEffigy",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SeraphimHall",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArcshipTier1Flying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HQTier2",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HQTier3",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KastielCollectionArrayFlying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HQTier1",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CrusaderLab",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AbyssalGateBase",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArcshipTier3Flying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MythiaArcshipGrounded",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LesserShrine",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GeneticCultivator",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ForceProjector",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ExoBarracks",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SparkNode",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CannonTurret",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AssemblyPlant",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Stormgate",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BasicTurret",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TributePyre",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WarpNodeKastiel",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MunitionsFactoryRyker",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VoidSprigganSpire",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ObeliskSlow",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LinkNodeKastiel",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HQTier1Barclay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Purifier",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HQTier2Barclay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BruteVault",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SaberStarforge",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Conclave_Maloc",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KriNexus",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AscensionChamber",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BaseDefenseTower",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MunitionsFactory",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MegaHQA",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RitualChamberMaloc",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MegaHQB",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MegaHQC",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BlastFurnace",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CombatMedicBarracks",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ShadowCleft",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CabalNexus",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HangarBay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PowerBank",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GuardianNexus",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EradicatorChamber",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ScytheHall",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArkhosArcshipTier2Flying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HornetBay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArcshipTier2Flying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HQTier3Barclay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HellforgeMaloc",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MachineGunTurret",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TwilightSpire",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Habitat",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ValentinesPromo",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HopliteLab",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VoidBruteVault",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Bastion",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GuardsmanYard",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SolarHabitat",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GreaterShrine",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LinkNode",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Effigy",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CollectionArray",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HedgehogBay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hellforge",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GravenYard",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FireGiantConclave",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Obelisk",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MissileTurret",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArkhosArcshipTier1",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AtlasBay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Mainframe",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Scrapyard",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArcshipTier1",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArcshipTier3",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArcshipTier2",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EnflamedImpChamber",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FiendVault",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArgentChamber",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AnimancerMatrix",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ExpansionHarvester",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Rampart",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ElderShrine",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HelicarrierBay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MortardonHellforge",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RocketLauncherGunner",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WarpNode",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HexenConclave",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MechBay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CollectionArrayFlying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AstralMonolith",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Skunkworks",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CelestialHQ",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RitualChamber",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Conclave",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Warforge",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AtlasAndEvacBay",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MythiaArcshipTier1",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "IronVault",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MythiaArcshipTier3",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MythiaArcshipTier2",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArkhosArcshipTier1Flying",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ResearchLab",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FirestarterShop",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PrecursorUplink",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Barracks",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Haven",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DefenseTower",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Propagator",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AILab",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BarrowFarm",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VoidWeaverChamber",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ArchangelGate",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Slaughterpit",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KastielCollectionArray",
+    "veterancy_starting_tier": 1,
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 100000.0,
+            "stat": "ProductionSpeedPercentageAdditiveMultiplier"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -47,7 +47,7 @@
       "unit": "StormCreator"
     }
   ],
-  "id": "MeatManor_Spawn",
+  "id": "KastielCollectionArray_Spawn",
   "range": 9.0,
   "spawnUnitDataList": [
     "CloningMatrix",
