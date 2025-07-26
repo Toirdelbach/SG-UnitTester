@@ -4,7 +4,7 @@
     "UnderConstruction_Celestial",
     "structureProductionQueueAbilityData",
     "rallyData",
-    "MeatManor_Spawn"
+    "KastielCollectionArray_Spawn"
   ],
   "based_on": "BaseUnit_CelestialS",
   "commandList": [
@@ -21,7 +21,7 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "MeatManor_Spawn",
+      "ability": "KastielCollectionArray_Spawn",
       "button": "StormgateAbilityCreateTier1CloningMatrix_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
@@ -33,7 +33,7 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "MeatManor_Spawn",
+      "ability": "KastielCollectionArray_Spawn",
       "button": "StormgateAbilityCreateTier2Avatar_Button",
       "commandIndex": 1,
       "hotkey_should_hide": false,
@@ -45,7 +45,7 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "MeatManor_Spawn",
+      "ability": "KastielCollectionArray_Spawn",
       "button": "StormgateAbilityCreateTier1StructureRelic_Button",
       "commandIndex": 2,
       "hotkey_should_hide": false,
@@ -57,7 +57,7 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "MeatManor_Spawn",
+      "ability": "KastielCollectionArray_Spawn",
       "button": "StormgateAbilityCreateTier3Tornado_Button",
       "commandIndex": 3,
       "hotkey_should_hide": false,
