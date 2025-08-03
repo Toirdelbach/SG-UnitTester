@@ -1,0 +1,248 @@
+{
+  "actions": [
+    {
+      "function_id": "General_IfThenElse",
+      "sub_functions": [
+        {
+          "id": "if",
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "parameters": [
+                {
+                  "id": "value1",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Player_GetTriggeringChatMessage"
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                },
+                {
+                  "id": "op",
+                  "expressions": [
+                    {
+                      "preset": {
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ]
+                },
+                {
+                  "id": "value2",
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": { "directive": "FunctionType", "type": "String" },
+                        "value": "!help"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Then",
+          "functions": [
+            {
+              "function_id": "UI_SendChatMessage",
+              "parameters": [
+                {
+                  "id": "message",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "parameters": [
+                          {
+                            "id": "value",
+                            "expressions": [
+                              {
+                                "type": "Value",
+                                "value": {
+                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "value": "!help - displays this message"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                },
+                {
+                  "id": "group",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers"
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function_id": "UI_SendChatMessage",
+              "parameters": [
+                {
+                  "id": "message",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "parameters": [
+                          {
+                            "id": "value",
+                            "expressions": [
+                              {
+                                "type": "Value",
+                                "value": {
+                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "value": "!give - gives selected units to player 2 (for solo play)"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                },
+                {
+                  "id": "group",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers"
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function_id": "UI_SendChatMessage",
+              "parameters": [
+                {
+                  "id": "message",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "parameters": [
+                          {
+                            "id": "value",
+                            "expressions": [
+                              {
+                                "type": "Value",
+                                "value": {
+                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "value": "!kill - kills selected units"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                },
+                {
+                  "id": "group",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers"
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function_id": "UI_SendChatMessage",
+              "parameters": [
+                {
+                  "id": "message",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "parameters": [
+                          {
+                            "id": "value",
+                            "expressions": [
+                              {
+                                "type": "Value",
+                                "value": {
+                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "value": "!tech - resets tech unlocks"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                },
+                {
+                  "id": "group",
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers"
+                      },
+                      "type": "Function"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Else",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "events": [
+    {
+      "function_id": "Player_OnPlayerSendsChatMessage",
+      "parameters": [
+        {
+          "id": "player",
+          "expressions": [
+            {
+              "preset": {
+                "preset_id": "Player_AnyPlayer",
+                "value_id": "Any"
+              },
+              "type": "Preset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "id": "ChatMessageHelp"
+}
