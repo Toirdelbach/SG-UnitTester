@@ -249,6 +249,7 @@
   "ui_kind": "unit",
   "unit_button": "StormgateAbilityCreateTier3Tornado_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Totem5.UI_Portrait_Demon_Default_Totem5'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_Totem5",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

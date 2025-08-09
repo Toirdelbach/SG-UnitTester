@@ -23,19 +23,19 @@
       "target_archetype": "ArcshipTier1Flying",
       "target_command_index": 0,
       "target_property": "movement.speed",
-      "target_value": 0.5
+      "target_value": 1.0
     },
     {
       "target_archetype": "ArcshipTier2Flying",
       "target_command_index": 0,
       "target_property": "movement.speed",
-      "target_value": 0.5
+      "target_value": 1.0
     },
     {
       "target_archetype": "ArcshipTier3Flying",
       "target_command_index": 0,
       "target_property": "movement.speed",
-      "target_value": 0.5
+      "target_value": 1.0
     },
     {
       "target_archetype": "MorphCore",

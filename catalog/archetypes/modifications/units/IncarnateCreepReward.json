@@ -235,6 +235,7 @@
   "ui_kind": "unit",
   "unit_button": "Incarnate_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Creeps/UI_Portrait_Creeps_Default_Incarnate.UI_Portrait_Creeps_Default_Incarnate'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_Incarnate_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

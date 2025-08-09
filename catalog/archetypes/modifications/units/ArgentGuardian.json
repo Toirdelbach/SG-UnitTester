@@ -229,6 +229,7 @@
   "ui_kind": "unit",
   "unit_button": "AttackButton",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_ArgentGuardian.UI_Portrait_Angel_Default_ArgentGuardian'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UA_Argent_Guardian_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

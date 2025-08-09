@@ -248,6 +248,7 @@
   "ui_kind": "unit",
   "unit_button": "StormgateAbilityCreateTier1Healer_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ForestCreature.UI_Portrait_Demon_Default_ForestCreature'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_ForestCreature",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

@@ -235,6 +235,7 @@
   "ui_kind": "unit",
   "unit_button": "PitFiend_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Hellborne.UI_Portrait_Demon_Default_Hellborne'",
+  "unit_name_list": "InfBeasts",
   "unreal_actor": "BP_UD_Hellborne_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

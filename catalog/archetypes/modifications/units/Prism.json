@@ -18,17 +18,15 @@
   "attack_target_priority": 20,
   "based_on": "BaseUnit_CelestialU",
   "behaviors": [],
-  "buffs": [
-    "PrismSpeed_BuffBase"
-  ],
+  "buffs": [],
   "build_cost": {
-    "resource_a": 150.0,
+    "resource_a": 40.0,
     "resource_b": 0.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
   "build_time": 0.2,
-  "cargo_size": "Two",
+  "cargo_size": "One",
   "cascade_field_radius": 0,
   "commandList": [
     {
@@ -100,20 +98,6 @@
       "ability": "WorkerCelestialHarvest",
       "button": "WorkerCelestialHarvest_Button",
       "commandIndex": 0,
-      "hotkey_link_alias": "emptyRef",
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 1,
-      "slot": 2,
-      "submenu": 0,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "WorkerCelestialHarvest",
-      "button": "ReturnResources_Button",
-      "commandIndex": 1,
-      "hotkey_link_alias": "emptyRef",
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -150,9 +134,8 @@
     },
     {
       "ability": "Celestial_Construct",
-      "button": "PowerBank_Button",
+      "button": "LinkNode_Button",
       "commandIndex": 1,
-      "hotkey_link_alias": "emptyRef",
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -202,35 +185,8 @@
     },
     {
       "ability": "Celestial_Construct",
-      "button": "LinkNode_Button",
-      "commandIndex": 5,
-      "hotkey_link_alias": "emptyRef",
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 1,
-      "slot": 1,
-      "submenu": 1,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "Celestial_Construct",
-      "button": "Purifier_Button",
-      "commandIndex": 6,
-      "hotkey_link_alias": "emptyRef",
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 1,
-      "slot": 2,
-      "submenu": 1,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "Celestial_Construct",
       "button": "ForceProjector_Button",
-      "commandIndex": 7,
-      "hotkey_link_alias": "emptyRef",
+      "commandIndex": 5,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -242,8 +198,7 @@
     {
       "ability": "Celestial_Construct",
       "button": "GuardianNexus_Button",
-      "commandIndex": 8,
-      "hotkey_link_alias": "emptyRef",
+      "commandIndex": 6,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -254,9 +209,8 @@
     },
     {
       "ability": "Celestial_Construct",
-      "button": "CollectionArray_Button",
-      "commandIndex": 9,
-      "hotkey_link_alias": "emptyRef",
+      "button": "AeonGate_Button",
+      "commandIndex": 7,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -269,25 +223,11 @@
       "ability": "EnhanceHarvesting",
       "button": "EnhanceHarvesting_Button",
       "commandIndex": 0,
-      "hotkey_link_alias": "emptyRef",
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 1,
-      "slot": 4,
-      "submenu": 0,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "EnhanceHarvestingLuminiteRedirect",
-      "button": "EnhanceHarvesting_Button",
-      "commandIndex": 0,
-      "hotkey_link_alias": "emptyRef",
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 1,
-      "slot": 10,
+      "slot": 2,
       "submenu": 0,
       "targetSubmenu": -1
     }
@@ -348,7 +288,7 @@
   },
   "global_energy": "emptyRef",
   "global_resource_overrides": [],
-  "height": 4.5,
+  "height": 0.5,
   "id": "Prism",
   "inner_radius": 0.375,
   "minimap_icon": "",
@@ -363,26 +303,26 @@
   "movement": {
     "acceleration_time": 0.0,
     "collision": {
-      "air": true,
+      "air": false,
       "burrowed": false,
-      "ground": false,
+      "ground": true,
       "ground_tall": false,
       "item": false,
       "worker": false
     },
     "deceleration_time": 0.0,
     "flocking": {
-      "separation_delay": 0.5,
-      "separation_radius": 0.8,
-      "separation_strength": 1.5
+      "separation_delay": 0.0,
+      "separation_radius": 0.0,
+      "separation_strength": 1.0
     },
     "idle_pushable": false,
     "lock_facing": true,
     "moving_turn_period": 0.13,
-    "pathing_mode": "Flying",
+    "pathing_mode": "Ground",
     "push_priority": 0,
     "push_priority_same_team": 0,
-    "speed": 2.0,
+    "speed": 5.5,
     "stationary_turn_period": 0.13,
     "turn_radius": 0.0,
     "turn_without_slowing": false,
@@ -390,7 +330,7 @@
   },
   "name": "pegasus_core|UnitData_name_Prism",
   "num_corpses": 1,
-  "outer_radius": 0.8,
+  "outer_radius": 0.45,
   "placed_name": "",
   "power_consumed": 0.0,
   "power_produced": 0.0,
@@ -419,17 +359,15 @@
   ],
   "starting_snowtags": [
     "entity_unit",
-    "heightplane_air",
+    "heightplane_ground",
     "attribute_mechanical",
     "attribute_worker"
   ],
   "subgroup_priority": 100,
   "supply_add": 0.0,
-  "supply_cost": 3.0,
+  "supply_cost": 1.0,
   "targeting_participation_alias": [],
-  "traits": [
-    "PrismSpeed_Trait"
-  ],
+  "traits": [],
   "turret_list": [],
   "ui_flags": {
     "callout_attacks_air": false,
@@ -438,25 +376,26 @@
   "ui_kind": "unit",
   "unit_button": "Prism_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Prism.UI_Portrait_Angel_Default_Prism'",
-  "unreal_actor": "BP_UA_Prism_00",
+  "unit_name_list": "emptyRef",
+  "unreal_actor": "BP_UA_PrismV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
-  "veterancy_given_on_death": 300,
+  "veterancy_given_on_death": 100,
   "veterancy_starting_tier": 0,
   "veterancy_tiers": [],
   "veterancy_vxp_weight": 0,
   "victory_points": 0.0,
   "vision_height": 0.0,
-  "vision_radius": 11.0,
+  "vision_radius": 10.0,
   "vital_energy": {
     "maximum": 0.0,
     "regen": 0.0,
     "starting": 0.0
   },
   "vital_health": {
-    "maximum": 180.0,
+    "maximum": 65.0,
     "regen": 0.0,
-    "starting": 180.0
+    "starting": 65.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,
@@ -477,5 +416,7 @@
   "vital_shroud_bonus_shield_multiplier": 0.0,
   "vital_shroud_combat_delay": 5.0,
   "vitals_force_hide": false,
-  "weaponList": []
+  "weaponList": [
+    "Prism_Weapon"
+  ]
 }

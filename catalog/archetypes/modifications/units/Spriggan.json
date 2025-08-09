@@ -16,7 +16,7 @@
   "behaviors": [],
   "buffs": [],
   "build_cost": {
-    "resource_a": 100.0,
+    "resource_a": 75.0,
     "resource_b": 50.0,
     "resource_c": 0.0,
     "resource_d": 0.0
@@ -236,6 +236,7 @@
   "ui_kind": "unit",
   "unit_button": "Spriggan_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_SprigganV2.UI_Portrait_Demon_Default_SprigganV2'",
+  "unit_name_list": "InfFlyers",
   "unreal_actor": "BP_UD_SprigganV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

@@ -2,7 +2,7 @@
   "__base_type": "UpgradeData",
   "based_on": "BaseUpgradeData",
   "button": "emptyRef",
-  "create_alert_on_complete": true,
+  "create_alert_on_complete": false,
   "flags": {
     "shared_with_team": false
   },

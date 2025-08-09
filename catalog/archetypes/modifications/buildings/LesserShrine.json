@@ -120,7 +120,7 @@
       "unit": "Imp"
     },
     {
-      "unit": "BarrowFarm"
+      "unit": "TributePyre"
     },
     {
       "unit": "IronVault"
@@ -266,8 +266,9 @@
   },
   "ui_kind": "unit",
   "unit_button": "LesserShrine_Button",
-  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_LesserShrine.UI_Portrait_Demon_Default_LesserShrine'",
-  "unreal_actor": "BP_SD_Shrine_A_00",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_LesserShrineV2.UI_Portrait_Demon_Default_LesserShrineV2'",
+  "unit_name_list": "emptyRef",
+  "unreal_actor": "BP_SD_ShrineV2_A_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
   "veterancy_given_on_death": 0,

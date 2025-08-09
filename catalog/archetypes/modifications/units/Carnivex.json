@@ -20,8 +20,8 @@
     "Carnivex_BuffKillingBlow"
   ],
   "build_cost": {
-    "resource_a": 100.0,
-    "resource_b": 25.0,
+    "resource_a": 200.0,
+    "resource_b": 75.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
@@ -204,7 +204,7 @@
     "pathing_mode": "Ground",
     "push_priority": 0,
     "push_priority_same_team": 0,
-    "speed": 4.5,
+    "speed": 7.0,
     "stationary_turn_period": 0.13,
     "turn_radius": 0.0,
     "turn_without_slowing": false,
@@ -212,7 +212,7 @@
   },
   "name": "pegasus_core|UnitData_name_Carnivex",
   "num_corpses": 1,
-  "outer_radius": 1.15,
+  "outer_radius": 0.9,
   "placed_name": "",
   "power_consumed": 0.0,
   "power_produced": 0.0,
@@ -262,10 +262,11 @@
   "ui_kind": "unit",
   "unit_button": "Carnivex_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Carnivex.UI_Portrait_Angel_Default_Carnivex'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UA_Carnivex_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
-  "veterancy_given_on_death": 0,
+  "veterancy_given_on_death": 200,
   "veterancy_starting_tier": 0,
   "veterancy_tiers": [],
   "veterancy_vxp_weight": 0,
@@ -278,9 +279,9 @@
     "starting": 25.0
   },
   "vital_health": {
-    "maximum": 220.0,
+    "maximum": 250.0,
     "regen": 0.0,
-    "starting": 220.0
+    "starting": 250.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

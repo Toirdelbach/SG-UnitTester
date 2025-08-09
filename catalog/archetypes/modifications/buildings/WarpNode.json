@@ -22,7 +22,7 @@
   },
   "build_time": 25.0,
   "cargo_size": "One",
-  "cascade_field_radius": 6,
+  "cascade_field_radius": 0,
   "commandList": [
     {
       "ability": "attackData",
@@ -198,6 +198,7 @@
   "ui_kind": "unit",
   "unit_button": "WarpNode_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_WarpNode.UI_Portrait_Angel_Default_WarpNode'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_WarpNode_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

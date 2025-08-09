@@ -14,17 +14,15 @@
   "attack_target_priority": 20,
   "based_on": "BaseUnit_CelestialU",
   "behaviors": [],
-  "buffs": [
-    "DroidekaShield_Buff"
-  ],
+  "buffs": [],
   "build_cost": {
-    "resource_a": 50.0,
+    "resource_a": 200.0,
     "resource_b": 0.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
   "build_time": 0.2,
-  "cargo_size": "One",
+  "cargo_size": "Two",
   "cascade_field_radius": 0,
   "commandList": [
     {
@@ -180,7 +178,7 @@
     "pathing_mode": "Ground",
     "push_priority": 0,
     "push_priority_same_team": 0,
-    "speed": 4.0,
+    "speed": 5.5,
     "stationary_turn_period": 0.13,
     "turn_radius": 0.0,
     "turn_without_slowing": false,
@@ -188,7 +186,7 @@
   },
   "name": "pegasus_heroes|UnitData_name_Eradicator",
   "num_corpses": 1,
-  "outer_radius": 0.6,
+  "outer_radius": 0.8,
   "placed_name": "",
   "power_consumed": 0.0,
   "power_produced": 0.0,
@@ -228,9 +226,8 @@
   "supply_cost": 1.0,
   "targeting_participation_alias": [],
   "traits": [
-    "DroidekaShield_Trait",
-    "Overkill_Trait",
-    "TimeShift_Trait"
+    "TimeShift_Trait",
+    "BeamArmorShred_Trait"
   ],
   "turret_list": [],
   "ui_flags": {
@@ -240,10 +237,11 @@
   "ui_kind": "unit",
   "unit_button": "Eradicator_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Eradicator.UI_Portrait_Angel_Default_Eradicator'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UA_Eradicator_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
-  "veterancy_given_on_death": 200,
+  "veterancy_given_on_death": 300,
   "veterancy_starting_tier": 0,
   "veterancy_tiers": [],
   "veterancy_vxp_weight": 0,
@@ -251,14 +249,14 @@
   "vision_height": 0.0,
   "vision_radius": 10.0,
   "vital_energy": {
-    "maximum": 0.0,
+    "maximum": 50.0,
     "regen": 0.0,
-    "starting": 0.0
+    "starting": 50.0
   },
   "vital_health": {
-    "maximum": 90.0,
+    "maximum": 250.0,
     "regen": 0.0,
-    "starting": 90.0
+    "starting": 250.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

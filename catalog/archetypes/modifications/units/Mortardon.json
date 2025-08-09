@@ -16,8 +16,8 @@
   "behaviors": [],
   "buffs": [],
   "build_cost": {
-    "resource_a": 250.0,
-    "resource_b": 150.0,
+    "resource_a": 275.0,
+    "resource_b": 125.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
@@ -190,7 +190,7 @@
     "pathing_mode": "Ground",
     "push_priority": 0,
     "push_priority_same_team": 0,
-    "speed": 3.5,
+    "speed": 4.0,
     "stationary_turn_period": 0.4,
     "turn_radius": 0.0,
     "turn_without_slowing": false,
@@ -233,10 +233,11 @@
   ],
   "subgroup_priority": 119,
   "supply_add": 0.0,
-  "supply_cost": 8.0,
+  "supply_cost": 6.0,
   "targeting_participation_alias": [],
   "traits": [
-    "Mortardon_Weapon_Trait"
+    "Mortardon_Weapon_Trait",
+    "MortardonStabledLaunch_Trait"
   ],
   "turret_list": [],
   "ui_flags": {
@@ -246,6 +247,7 @@
   "ui_kind": "unit",
   "unit_button": "Mortardon_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Mortardon.UI_Portrait_Demon_Default_Mortardon'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_Mortardon_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

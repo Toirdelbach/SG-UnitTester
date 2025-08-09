@@ -4,7 +4,8 @@
     "UnderConstruction_Celestial",
     "structureProductionQueueAbilityData",
     "Purifier_Research",
-    "TheriumRallyAbilityData"
+    "TheriumRallyAbilityData",
+    "MorphToMorphCore"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [],
@@ -23,7 +24,7 @@
   },
   "build_time": 15.0,
   "cargo_size": "One",
-  "cascade_field_radius": 9,
+  "cascade_field_radius": 0,
   "commandList": [
     {
       "ability": "structureProductionQueueAbilityData",
@@ -101,6 +102,18 @@
       "ability": "Purifier_Research",
       "button": "PurifierDummyUpgrade4_Button",
       "commandIndex": 5,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MorphToMorphCore",
+      "button": "MorphToMorphCore_Button",
+      "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -247,9 +260,7 @@
   "supply_add": 0.0,
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
-  "traits": [
-    "CascadeField_Trait"
-  ],
+  "traits": [],
   "turret_list": [],
   "ui_flags": {
     "callout_attacks_air": false,
@@ -258,6 +269,7 @@
   "ui_kind": "unit",
   "unit_button": "Purifier_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Purifier.UI_Portrait_Angel_Default_Purifier'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_Purifier_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

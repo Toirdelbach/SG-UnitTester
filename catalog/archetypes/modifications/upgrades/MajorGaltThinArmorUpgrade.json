@@ -24,16 +24,18 @@
     {
       "modifiers": [
         {
-          "amount": -25.0,
+          "amount": -30.0,
           "stat_mod": "ArmorScaledAdditiveBonus"
         },
         {
-          "amount": -50.0,
+          "amount": -60.0,
           "stat_mod": "HealthMaxPercentageAdditiveMultiplier"
         }
       ],
       "tag_filter": {
-        "excluded": [],
+        "excluded": [
+          "attribute_hero"
+        ],
         "required": [
           "attribute_biological"
         ]

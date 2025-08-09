@@ -187,6 +187,7 @@
   "ui_kind": "unit",
   "unit_button": "Slaughterpit_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Slaughterpit.UI_Portrait_Demon_Default_Slaughterpit'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SD_Slaughterpit_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

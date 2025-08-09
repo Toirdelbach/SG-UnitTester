@@ -231,6 +231,7 @@
   "ui_kind": "unit",
   "unit_button": "Machinelord_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_MachineLord.UI_Portrait_Angel_Default_MachineLord'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UA_Machinelord_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

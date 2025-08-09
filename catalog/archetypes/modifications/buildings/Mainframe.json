@@ -4,7 +4,8 @@
     "UnderConstruction_Celestial",
     "structureProductionQueueAbilityData",
     "rallyData",
-    "Mainframe_Spawn"
+    "Mainframe_Spawn",
+    "MatterReallocation_Starforge"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [],
@@ -23,7 +24,7 @@
   },
   "build_time": 30.0,
   "cargo_size": "One",
-  "cascade_field_radius": 7,
+  "cascade_field_radius": 15,
   "commandList": [
     {
       "ability": "structureProductionQueueAbilityData",
@@ -70,6 +71,18 @@
       "repeatable": true,
       "row": 2,
       "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MatterReallocation_Starforge",
+      "button": "MorphToMorphCore_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
       "submenu": 0,
       "targetSubmenu": -1
     }
@@ -229,6 +242,7 @@
   "ui_kind": "unit",
   "unit_button": "Mainframe_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Mainframe.UI_Portrait_Angel_Default_Mainframe'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_Mainframe_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -238,7 +252,7 @@
   "veterancy_vxp_weight": 0,
   "victory_points": 0.0,
   "vision_height": 0.0,
-  "vision_radius": 11.0,
+  "vision_radius": 13.0,
   "vital_energy": {
     "maximum": 50000.0,
     "regen": 50000.0,

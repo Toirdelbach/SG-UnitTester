@@ -274,6 +274,7 @@
   "ui_kind": "unit",
   "unit_button": "Evac_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_EvacV2.UI_Portrait_Human_Default_EvacV2'",
+  "unit_name_list": "VanPilot",
   "unreal_actor": "BP_UH_DropshipV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -293,6 +294,7 @@
       ],
       "threshold": 600,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -308,6 +310,7 @@
       ],
       "threshold": 1500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -323,6 +326,7 @@
       ],
       "threshold": 2700,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

@@ -230,6 +230,7 @@
   "ui_kind": "unit",
   "unit_button": "Gunner_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/Assets/PulledFromProto/Gunner/Proto_Van_Portrait_Unit_Gunner.Proto_Van_Portrait_Unit_Gunner'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_Unit_Dummy_Demo",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -245,6 +246,7 @@
       ],
       "threshold": 600,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": ""
     },
     {
@@ -256,6 +258,7 @@
       ],
       "threshold": 1500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": ""
     },
     {
@@ -267,6 +270,7 @@
       ],
       "threshold": 3750,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": ""
     }
   ],

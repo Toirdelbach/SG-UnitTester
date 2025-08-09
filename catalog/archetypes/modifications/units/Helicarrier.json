@@ -276,6 +276,7 @@
   "ui_kind": "unit",
   "unit_button": "Helicarrier_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_HelicarrierV2.UI_Portrait_Human_Default_HelicarrierV2'",
+  "unit_name_list": "VanFlagship",
   "unreal_actor": "BP_UH_HelicarrierV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -299,6 +300,7 @@
       ],
       "threshold": 2800,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -318,6 +320,7 @@
       ],
       "threshold": 7000,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -337,6 +340,7 @@
       ],
       "threshold": 12600,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

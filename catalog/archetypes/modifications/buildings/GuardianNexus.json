@@ -3,7 +3,8 @@
   "abilityList": [
     "UnderConstruction_Celestial",
     "GuardianNexus_Research",
-    "structureProductionQueueAbilityData"
+    "structureProductionQueueAbilityData",
+    "MatterReallocation_AscensionMatrix"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [],
@@ -22,7 +23,7 @@
   },
   "build_time": 50.0,
   "cargo_size": "One",
-  "cascade_field_radius": 7,
+  "cascade_field_radius": 15,
   "commandList": [
     {
       "ability": "structureProductionQueueAbilityData",
@@ -117,6 +118,18 @@
       "repeatable": false,
       "row": 1,
       "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MatterReallocation_AscensionMatrix",
+      "button": "MorphToMorphCore_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
       "submenu": 0,
       "targetSubmenu": -1
     }
@@ -276,16 +289,17 @@
   "ui_kind": "unit",
   "unit_button": "GuardianNexus_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_AscensionChamber.UI_Portrait_Angel_Default_AscensionChamber'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_GuardianNexus_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
-  "veterancy_given_on_death": 200,
+  "veterancy_given_on_death": 0,
   "veterancy_starting_tier": 0,
   "veterancy_tiers": [],
   "veterancy_vxp_weight": 0,
   "victory_points": 0.0,
   "vision_height": 0.0,
-  "vision_radius": 11.0,
+  "vision_radius": 13.0,
   "vital_energy": {
     "maximum": 50000.0,
     "regen": 50000.0,

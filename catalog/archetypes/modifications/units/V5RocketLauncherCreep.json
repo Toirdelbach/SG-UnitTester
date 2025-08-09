@@ -243,6 +243,7 @@
   "ui_kind": "unit",
   "unit_button": "V5_RocketLauncher_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Neutral/UI_Portrait_Neutral_Default_V5RocketLauncher.UI_Portrait_Neutral_Default_V5RocketLauncher'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UC_V5RocketLauncher",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

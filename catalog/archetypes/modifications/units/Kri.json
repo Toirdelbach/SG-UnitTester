@@ -240,6 +240,7 @@
   "ui_kind": "unit",
   "unit_button": "Kri_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Kri.UI_Portrait_Angel_Default_Kri'",
+  "unit_name_list": "CelCelestial",
   "unreal_actor": "BP_UA_Kri_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

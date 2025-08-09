@@ -208,6 +208,7 @@
   "ui_kind": "unit",
   "unit_button": "AttackButton",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Neutral/UI_Portrait_Neutral_Unit_Default_Convoy.UI_Portrait_Neutral_Unit_Default_Convoy'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_PeopleEater",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

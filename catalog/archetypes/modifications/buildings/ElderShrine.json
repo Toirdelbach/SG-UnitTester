@@ -8,7 +8,8 @@
     "ElderShrine_Rally",
     "SummonEffigy",
     "CallToFightBaseFaction",
-    "ShadowfallBaseFaction"
+    "ShadowfallBaseFaction",
+    "ElderShrine_Spawn"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [
@@ -59,14 +60,14 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "SummonFlayedDragon",
+      "ability": "ElderShrine_Spawn",
       "button": "SummonFlayedDragon_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 2,
-      "slot": 4,
+      "slot": 5,
       "submenu": 0,
       "targetSubmenu": -1
     },
@@ -260,7 +261,8 @@
   },
   "ui_kind": "unit",
   "unit_button": "ElderShrine_Button",
-  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ElderShrine.UI_Portrait_Demon_Default_ElderShrine'",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ElderShrineV2.UI_Portrait_Demon_Default_ElderShrineV2'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SD_ShrineV2_C_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

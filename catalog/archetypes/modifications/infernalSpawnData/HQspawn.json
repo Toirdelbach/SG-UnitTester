@@ -1,16 +1,16 @@
-{
-"commands": [
+﻿{
+  "commands": [
     {
-    "charges": {
+      "charges": {
         "max_count": 5,
         "name": "VanguardTrainingHQ",
         "recharge_duration": 0.1,
         "starting_count": 3
-    },
-    "requirement": "Req_CompletedHQ",
-    "spawn_count": 1,
-    "unit": "Worker"
+      },
+      "requirement": "Req_CompletedHQ",
+      "spawn_count": 1,
+      "unit": "Worker"
     }
-],
-"id": "HQSpawn"
+  ],
+  "id": "HQSpawn"
 }

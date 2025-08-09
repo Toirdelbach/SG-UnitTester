@@ -286,6 +286,7 @@
   "ui_kind": "unit",
   "unit_button": "Brute_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BruteV2.UI_Portrait_Demon_Default_BruteV2'",
+  "unit_name_list": "InfBipedes",
   "unreal_actor": "BP_UD_BruteV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -302,9 +303,9 @@
     "starting": 0.0
   },
   "vital_health": {
-    "maximum": 195.0,
+    "maximum": 200.0,
     "regen": 0.0,
-    "starting": 195.0
+    "starting": 200.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

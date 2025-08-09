@@ -178,6 +178,7 @@
   "ui_kind": "unit",
   "unit_button": "ObeliskSlow_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ObeliskSlow.UI_Portrait_Demon_Default_ObeliskSlow'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SD_WraithstoneV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

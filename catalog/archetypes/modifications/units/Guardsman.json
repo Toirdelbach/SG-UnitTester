@@ -193,7 +193,7 @@
     "pathing_mode": "Ground",
     "push_priority": 0,
     "push_priority_same_team": 0,
-    "speed": 4.5,
+    "speed": 5.0,
     "stationary_turn_period": 0.13,
     "turn_radius": 0.0,
     "turn_without_slowing": false,
@@ -248,6 +248,7 @@
   "ui_kind": "unit",
   "unit_button": "Guardsman_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Guardsman.UI_Portrait_Human_Default_Guardsman'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_Guardsman_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -271,6 +272,7 @@
       ],
       "threshold": 300,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -290,6 +292,7 @@
       ],
       "threshold": 700,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -309,6 +312,7 @@
       ],
       "threshold": 1200,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

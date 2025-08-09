@@ -250,6 +250,7 @@
   "ui_kind": "unit",
   "unit_button": "VoidBrute_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Brute_Void.UI_Portrait_Demon_Default_Brute_Void'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_VoidBrute_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

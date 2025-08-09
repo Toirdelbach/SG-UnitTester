@@ -237,6 +237,7 @@
   "ui_kind": "unit",
   "unit_button": "Ruinframe_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_LightMech.UI_Portrait_Human_Default_LightMech'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_Ruinframe_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -260,6 +261,7 @@
       ],
       "threshold": 1000,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -279,6 +281,7 @@
       ],
       "threshold": 2500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -298,6 +301,7 @@
       ],
       "threshold": 4500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

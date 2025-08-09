@@ -184,6 +184,7 @@
   "ui_kind": "unit",
   "unit_button": "AttackButton",
   "unit_info_portrait": "None",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_Critter_Wildfire",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

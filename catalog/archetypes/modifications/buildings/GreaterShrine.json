@@ -40,7 +40,7 @@
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 2,
-      "slot": 3,
+      "slot": 4,
       "submenu": 0,
       "targetSubmenu": -1
     },
@@ -267,7 +267,8 @@
   },
   "ui_kind": "unit",
   "unit_button": "GreaterShrine_Button",
-  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_GreaterShrine.UI_Portrait_Demon_Default_GreaterShrine'",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_GreaterShrineV2.UI_Portrait_Demon_Default_GreaterShrineV2'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SD_ShrineV2_B_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

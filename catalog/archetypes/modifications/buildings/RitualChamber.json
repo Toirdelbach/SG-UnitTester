@@ -52,6 +52,18 @@
     },
     {
       "ability": "RitualChamber_Research",
+      "button": "GauntPlagueAxeUpgrade_Button",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "RitualChamber_Research",
       "button": "GauntDeathAxeUpgrade_Button",
       "commandIndex": 2,
       "hotkey_should_hide": false,
@@ -264,7 +276,9 @@
   "supply_add": 0.0,
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
-  "traits": [],
+  "traits": [
+    "ShroudGenerator_Trait"
+  ],
   "turret_list": [],
   "ui_flags": {
     "callout_attacks_air": false,
@@ -273,7 +287,8 @@
   "ui_kind": "unit",
   "unit_button": "RitualChamber_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_RitualChamber.UI_Portrait_Demon_Default_RitualChamber'",
-  "unreal_actor": "BP_SD_RitualChamber_00",
+  "unit_name_list": "emptyRef",
+  "unreal_actor": "BP_SD_RitualChamberV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
   "veterancy_given_on_death": 0,

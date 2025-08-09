@@ -4,10 +4,13 @@
     "UnderConstruction_Celestial",
     "structureProductionQueueAbilityData",
     "rallyData",
-    "CreationChamber_Spawn"
+    "CreationChamber_Spawn",
+    "MatterReallocation_CreationChamber"
   ],
   "additional_black_mask_vision_radius": 5.0,
-  "alias_tech": [],
+  "alias_tech": [
+    "_CreationChamber"
+  ],
   "armor": 15.0,
   "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Celestial_Building_0.UI_Icons_Armor_Celestial_Building_0'",
   "armor_name": "pegasus_core|ArmorName_CelestialStructureArmor",
@@ -23,7 +26,7 @@
   },
   "build_time": 30.0,
   "cargo_size": "One",
-  "cascade_field_radius": 7,
+  "cascade_field_radius": 15,
   "commandList": [
     {
       "ability": "structureProductionQueueAbilityData",
@@ -45,6 +48,18 @@
       "panel": "CommandPanel",
       "repeatable": true,
       "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "CreationChamber_Spawn",
+      "button": "ScannerGrounded_Button",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": true,
+      "row": 2,
       "slot": 3,
       "submenu": 0,
       "targetSubmenu": -1
@@ -52,7 +67,7 @@
     {
       "ability": "CreationChamber_Spawn",
       "button": "Kri_Button",
-      "commandIndex": 1,
+      "commandIndex": 2,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": true,
@@ -63,8 +78,8 @@
     },
     {
       "ability": "CreationChamber_Spawn",
-      "button": "Scanner_Button",
-      "commandIndex": 2,
+      "button": "Cabal_Button",
+      "commandIndex": 3,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": true,
@@ -74,14 +89,14 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "CreationChamber_Spawn",
-      "button": "Cabal_Button",
-      "commandIndex": 3,
+      "ability": "MatterReallocation_CreationChamber",
+      "button": "MorphToMorphCore_Button",
+      "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
-      "repeatable": true,
+      "repeatable": false,
       "row": 1,
-      "slot": 1,
+      "slot": 5,
       "submenu": 0,
       "targetSubmenu": -1
     }
@@ -108,10 +123,16 @@
       "unit": "ForceProjector"
     },
     {
-      "unit": "LinkNode"
+      "unit": "ArcshipTier2Flying"
     },
     {
-      "unit": "ArcshipTier2Flying"
+      "unit": "PowerBank"
+    },
+    {
+      "unit": "emptyRef"
+    },
+    {
+      "unit": "SparkNode"
     }
   ],
   "energy_type": "Energy",
@@ -250,6 +271,7 @@
   "ui_kind": "unit",
   "unit_button": "CreationChamber_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_ForceProjector.UI_Portrait_Angel_Default_ForceProjector'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_ForceProjector_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -259,7 +281,7 @@
   "veterancy_vxp_weight": 0,
   "victory_points": 0.0,
   "vision_height": 0.0,
-  "vision_radius": 11.0,
+  "vision_radius": 13.0,
   "vital_energy": {
     "maximum": 50000.0,
     "regen": 50000.0,

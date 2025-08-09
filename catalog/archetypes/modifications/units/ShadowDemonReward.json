@@ -233,6 +233,7 @@
   "ui_kind": "unit",
   "unit_button": "StormgateAbilityCreateTier3ShadowDemon_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ShadowDemonReward.UI_Portrait_Demon_Default_ShadowDemonReward'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_ShadowDemonReward_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

@@ -1,7 +1,7 @@
 {
   "__base_type": "UpgradeData",
   "based_on": "BaseUpgradeData",
-  "button": "HeroicChargeLevel1Upgrade_Button",
+  "button": "RevitalizeLevel1Upgrade_Button",
   "create_alert_on_complete": false,
   "flags": {
     "shared_with_team": false

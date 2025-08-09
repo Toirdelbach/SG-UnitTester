@@ -221,6 +221,7 @@
   "ui_kind": "unit",
   "unit_button": "AttackButton",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Skyrider.UI_Portrait_Human_Default_Skyrider'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_Neutralizer",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

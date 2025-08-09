@@ -158,7 +158,7 @@
     "attribute_melee"
   ],
   "subgroup_priority": 90,
-  "supply_add": 2.0,
+  "supply_add": 0.0,
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
   "traits": [
@@ -172,6 +172,7 @@
   "ui_kind": "unit",
   "unit_button": "Felhog_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Gremlin.UI_Portrait_Demon_Default_Gremlin'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_Gremlin_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -188,9 +189,9 @@
     "starting": 0.0
   },
   "vital_health": {
-    "maximum": 45.0,
+    "maximum": 65.0,
     "regen": 0.0,
-    "starting": 45.0
+    "starting": 65.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

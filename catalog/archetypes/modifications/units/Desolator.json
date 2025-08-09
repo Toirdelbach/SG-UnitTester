@@ -9,7 +9,7 @@
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [],
   "armor": 0.0,
-  "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Default.UI_Icons_Armor_Default'",
+  "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
   "armor_name": "pegasus_core|ArmorName_InfernalArmor",
   "attack_target_priority": 20,
   "based_on": "BaseUnit_InfernalU",
@@ -227,7 +227,8 @@
   },
   "ui_kind": "unit",
   "unit_button": "AttackButton",
-  "unit_info_portrait": "None",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Desolator.UI_Portrait_Demon_Default_Desolator'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_Desolator_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -237,7 +238,7 @@
   "veterancy_vxp_weight": 0,
   "victory_points": 0.0,
   "vision_height": 20.0,
-  "vision_radius": 15.0,
+  "vision_radius": 17.0,
   "vital_energy": {
     "maximum": 0.0,
     "regen": 0.0,
@@ -267,5 +268,7 @@
   "vital_shroud_bonus_shield_multiplier": 0.0,
   "vital_shroud_combat_delay": 5.0,
   "vitals_force_hide": false,
-  "weaponList": []
+  "weaponList": [
+    "Desolator_Weapon"
+  ]
 }

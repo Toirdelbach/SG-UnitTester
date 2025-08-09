@@ -195,13 +195,13 @@
     "pathing_mode": "Ground",
     "push_priority": 0,
     "push_priority_same_team": 0,
-    "speed": 4.5,
+    "speed": 5.5,
     "stationary_turn_period": 0.13,
     "turn_radius": 0.0,
     "turn_without_slowing": false,
     "unpushable": false
   },
-  "name": "UnitData_name_Crusader",
+  "name": "pegasus_core|UnitData_name_Crusader",
   "num_corpses": 1,
   "outer_radius": 0.6,
   "placed_name": "",
@@ -253,6 +253,7 @@
   "ui_kind": "unit",
   "unit_button": "Crusader_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Crusader.UI_Portrait_Human_Default_Crusader'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_Crusader_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -276,6 +277,7 @@
       ],
       "threshold": 600,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -295,6 +297,7 @@
       ],
       "threshold": 1400,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -314,6 +317,7 @@
       ],
       "threshold": 2400,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

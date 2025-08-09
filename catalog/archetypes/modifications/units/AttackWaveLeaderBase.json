@@ -230,6 +230,7 @@
   "ui_kind": "unit",
   "unit_button": "AttackButton",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Critters/UI_Portrait_Critters_Default_Goat.UI_Portrait_Critters_Default_Goat'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "Proxy_BP_UC_BruiserHard",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

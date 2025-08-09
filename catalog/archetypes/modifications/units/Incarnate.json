@@ -19,8 +19,8 @@
   "behaviors": [],
   "buffs": [],
   "build_cost": {
-    "resource_a": 400.0,
-    "resource_b": 400.0,
+    "resource_a": 1000.0,
+    "resource_b": 1000.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
@@ -130,7 +130,8 @@
   "default_acquire_level": "Offensive",
   "default_control_groups": [
     1,
-    2
+    2,
+    0
   ],
   "effects": {
     "birth": "emptyRef",
@@ -258,11 +259,12 @@
     "heightplane_ground",
     "attribute_heavy",
     "attribute_biological",
-    "attribute_ranged"
+    "attribute_ranged",
+    "attribute_resilient"
   ],
   "subgroup_priority": 140,
   "supply_add": 0.0,
-  "supply_cost": 12.0,
+  "supply_cost": 20.0,
   "targeting_participation_alias": [],
   "traits": [],
   "turret_list": [],
@@ -273,10 +275,11 @@
   "ui_kind": "unit",
   "unit_button": "Incarnate_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Creeps/UI_Portrait_Creeps_Default_Incarnate.UI_Portrait_Creeps_Default_Incarnate'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_IncarnateV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
-  "veterancy_given_on_death": 1200,
+  "veterancy_given_on_death": 2000,
   "veterancy_starting_tier": 0,
   "veterancy_tiers": [],
   "veterancy_vxp_weight": 0,
@@ -289,9 +292,9 @@
     "starting": 25.0
   },
   "vital_health": {
-    "maximum": 1000.0,
+    "maximum": 1500.0,
     "regen": 0.0,
-    "starting": 1000.0
+    "starting": 1500.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,
@@ -300,9 +303,9 @@
   "vital_out_shroud_deduction_shield_flat": 0.0,
   "vital_out_shroud_deduction_shield_multiplier": 0.0,
   "vital_shield": {
-    "maximum": 500.0,
+    "maximum": 0.0,
     "regen": 0.0,
-    "starting": 250.0
+    "starting": 0.0
   },
   "vital_shroud_bonus_energy_flat": 0.0,
   "vital_shroud_bonus_energy_multiplier": 0.0,

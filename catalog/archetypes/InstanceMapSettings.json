@@ -1,10 +1,10 @@
 ﻿{
   "based_on": "DefaultMapSettings",
   "camera_bounds": {
-    "bottom_offset": 15.0,
-    "left_offset": 25.0,
-    "right_offset": 25.0,
-    "top_offset": 15.0
+    "bottom_offset": 4.0,
+    "left_offset": 4.0,
+    "right_offset": 4.0,
+    "top_offset": 6.0
   },
   "description": "Unit Tester by RustyShacky v 0.1.6",
   "id": "InstanceMapSettings",

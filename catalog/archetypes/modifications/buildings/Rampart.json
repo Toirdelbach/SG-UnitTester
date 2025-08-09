@@ -13,7 +13,9 @@
   "attack_target_priority": 11,
   "based_on": "BaseUnit_VanguardS",
   "behaviors": [],
-  "buffs": [],
+  "buffs": [
+    "ReinforceCoolup_Buff"
+  ],
   "build_cost": {
     "resource_a": 200.0,
     "resource_b": 0.0,
@@ -195,6 +197,7 @@
   "ui_kind": "unit",
   "unit_button": "Rampart_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Habitat.UI_Portrait_Human_Default_Habitat'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_Structure_Human_Rampart_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

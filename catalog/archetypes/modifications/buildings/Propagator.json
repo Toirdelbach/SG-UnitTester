@@ -185,9 +185,7 @@
   "supply_add": 0.0,
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
-  "traits": [
-    "CascadeField_Trait"
-  ],
+  "traits": [],
   "turret_list": [],
   "ui_flags": {
     "callout_attacks_air": false,
@@ -196,6 +194,7 @@
   "ui_kind": "unit",
   "unit_button": "Propagator_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Propagator.UI_Portrait_Angel_Default_Propagator'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_Propagator_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

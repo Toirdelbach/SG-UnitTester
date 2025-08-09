@@ -238,6 +238,7 @@
   "ui_kind": "unit",
   "unit_button": "Fiend_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_FiendV2.UI_Portrait_Demon_Default_FiendV2'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_FiendV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -254,9 +255,9 @@
     "starting": 0.0
   },
   "vital_health": {
-    "maximum": 50.0,
+    "maximum": 60.0,
     "regen": 0.0,
-    "starting": 50.0
+    "starting": 60.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

@@ -249,6 +249,7 @@
   "ui_kind": "unit",
   "unit_button": "SkullOfShedda_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_SkullOfShedda.UI_Portrait_Demon_Default_SkullOfShedda'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_SkullOfShedda",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

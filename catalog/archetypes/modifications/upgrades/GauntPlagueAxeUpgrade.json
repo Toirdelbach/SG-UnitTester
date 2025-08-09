@@ -13,8 +13,8 @@
   "research_effect": "emptyRef",
   "research_time": 0.0,
   "resource_cost": {
-    "resource_a": 50.0,
-    "resource_b": 50.0,
+    "resource_a": 25.0,
+    "resource_b": 25.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },

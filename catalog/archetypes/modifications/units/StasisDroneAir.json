@@ -62,7 +62,7 @@
     "seek_and_destroy": false,
     "stealth": false,
     "uncommandable": false,
-    "unselectable": false,
+    "unselectable": true,
     "untargetable": false,
     "victory_expansion": false
   },
@@ -167,6 +167,7 @@
   "ui_kind": "unit",
   "unit_button": "SensorDrone_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Logo.UI_Portrait_Human_Default_Logo'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_StasisDrone_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

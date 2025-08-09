@@ -233,6 +233,7 @@
   "ui_kind": "unit",
   "unit_button": "AttackButton",
   "unit_info_portrait": "None",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_PrototypeGunner",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "HeroVanguardVeterancyData",
@@ -242,58 +243,241 @@
     {
       "stat_modifiers": [
         {
-          "amount": 25.0,
+          "amount": 15.0,
           "stat": "HealthMaxPercentageAdditiveMultiplier"
         },
         {
-          "amount": 20.0,
-          "stat": "DamagePercentageBonus"
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
         },
         {
-          "amount": 25.0,
+          "amount": 10.0,
           "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
         }
       ],
       "threshold": 1500,
-      "tier_up_effect": "emptyRef",
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_HeroLevelUp"
     },
     {
       "stat_modifiers": [
         {
-          "amount": 25.0,
+          "amount": 15.0,
           "stat": "HealthMaxPercentageAdditiveMultiplier"
         },
         {
-          "amount": 20.0,
-          "stat": "DamagePercentageBonus"
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
         },
         {
-          "amount": 25.0,
+          "amount": 10.0,
           "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
         }
       ],
-      "threshold": 4000,
-      "tier_up_effect": "emptyRef",
+      "threshold": 3000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 500,
       "visual_fx": "BP_FX_HeroLevelUp"
     },
     {
       "stat_modifiers": [
         {
-          "amount": 25.0,
+          "amount": 15.0,
           "stat": "HealthMaxPercentageAdditiveMultiplier"
         },
         {
-          "amount": 20.0,
-          "stat": "DamagePercentageBonus"
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
         },
         {
-          "amount": 25.0,
+          "amount": 10.0,
           "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
         }
       ],
-      "threshold": 10000,
-      "tier_up_effect": "emptyRef",
+      "threshold": 7000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 1000,
+      "visual_fx": "BP_FX_HeroLevelUp"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 15.0,
+          "stat": "HealthMaxPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
+        }
+      ],
+      "threshold": 12000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 1500,
+      "visual_fx": "BP_FX_HeroLevelUp"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 15.0,
+          "stat": "HealthMaxPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "AttackDamageUnscaledBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
+        }
+      ],
+      "threshold": 18000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 2000,
+      "visual_fx": "BP_FX_HeroLevelUp"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 15.0,
+          "stat": "HealthMaxPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
+        }
+      ],
+      "threshold": 25000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 2500,
+      "visual_fx": "BP_FX_HeroLevelUp"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 15.0,
+          "stat": "HealthMaxPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
+        }
+      ],
+      "threshold": 33000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 3000,
+      "visual_fx": "BP_FX_HeroLevelUp"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 15.0,
+          "stat": "HealthMaxPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
+        }
+      ],
+      "threshold": 42000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 3500,
+      "visual_fx": "BP_FX_HeroLevelUp"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 15.0,
+          "stat": "HealthMaxPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
+        }
+      ],
+      "threshold": 52000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 4000,
+      "visual_fx": "BP_FX_HeroLevelUp"
+    },
+    {
+      "stat_modifiers": [
+        {
+          "amount": 15.0,
+          "stat": "HealthMaxPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "AttackDamageScaledBonus"
+        },
+        {
+          "amount": 10.0,
+          "stat": "HealthRegenPercentageAdditiveMultiplier"
+        },
+        {
+          "amount": 5.0,
+          "stat": "EnergyRegenPercentageBonus"
+        }
+      ],
+      "threshold": 63000,
+      "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+      "veterancy_given_on_death_tier_bonus": 4500,
       "visual_fx": "BP_FX_HeroLevelUp"
     }
   ],

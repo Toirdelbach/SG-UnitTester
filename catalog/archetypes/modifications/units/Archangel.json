@@ -259,6 +259,7 @@
   "ui_kind": "unit",
   "unit_button": "Archangel_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Archangel.UI_Portrait_Angel_Default_Archangel'",
+  "unit_name_list": "CelArchangel",
   "unreal_actor": "BP_UA_Archangel_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

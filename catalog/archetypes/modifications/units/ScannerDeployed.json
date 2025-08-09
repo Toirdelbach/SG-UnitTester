@@ -20,8 +20,8 @@
   "behaviors": [],
   "buffs": [],
   "build_cost": {
-    "resource_a": 25.0,
-    "resource_b": 25.0,
+    "resource_a": 50.0,
+    "resource_b": 0.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
@@ -247,7 +247,7 @@
     "attribute_mechanical",
     "attribute_light"
   ],
-  "subgroup_priority": 121,
+  "subgroup_priority": 102,
   "supply_add": 0.0,
   "supply_cost": 1.0,
   "targeting_participation_alias": [],
@@ -263,6 +263,7 @@
   "ui_kind": "unit",
   "unit_button": "ScannerPerched_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Scanner.UI_Portrait_Angel_Default_Scanner'",
+  "unit_name_list": "CelAnimancer",
   "unreal_actor": "BP_UA_ScannerDeployed_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -279,9 +280,9 @@
     "starting": 25.0
   },
   "vital_health": {
-    "maximum": 40.0,
+    "maximum": 50.0,
     "regen": 0.0,
-    "starting": 40.0
+    "starting": 50.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

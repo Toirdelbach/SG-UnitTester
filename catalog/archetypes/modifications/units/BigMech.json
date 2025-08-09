@@ -231,6 +231,7 @@
   "ui_kind": "unit",
   "unit_button": "BigMech_Button",
   "unit_info_portrait": "None",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_BigMech_01",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -246,6 +247,7 @@
       ],
       "threshold": 3000,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -257,6 +259,7 @@
       ],
       "threshold": 7500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -268,6 +271,7 @@
       ],
       "threshold": 18750,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

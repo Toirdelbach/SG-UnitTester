@@ -1,49 +1,49 @@
-{
-"commands": [
+﻿{
+  "commands": [
     {
-    "charges": {
+      "charges": {
         "max_count": 3,
         "name": "InfernalTrainingTwilightSpire",
         "recharge_duration": 0.1,
         "starting_count": 1
-    },
-    "requirement": "CompletedTwilightSpire_Requirement",
-    "spawn_count": 2,
-    "unit": "Shadowflyer"
+      },
+      "requirement": "CompletedTwilightSpire_Requirement",
+      "spawn_count": 2,
+      "unit": "Shadowflyer"
     },
     {
-    "charges": {
+      "charges": {
         "max_count": 3,
         "name": "InfernalTrainingTwilightSpire",
         "recharge_duration": 0.1,
         "starting_count": 1
-    },
-    "requirement": "CompletedTwilightSpire_Requirement",
-    "spawn_count": 1,
-    "unit": "Harbinger"
+      },
+      "requirement": "CompletedTwilightSpire_Requirement",
+      "spawn_count": 1,
+      "unit": "Harbinger"
     },
     {
-    "charges": {
+      "charges": {
         "max_count": 3,
         "name": "InfernalTrainingTwilightSpire",
         "recharge_duration": 0.1,
         "starting_count": 1
-    },
-    "requirement": "CompletedTwilightSpireANDCompletedShadowCleft_Requirement",
-    "spawn_count": 2,
-    "unit": "Spriggan"
+      },
+      "requirement": "CompletedTwilightSpireANDCompletedShadowCleft_Requirement",
+      "spawn_count": 2,
+      "unit": "Spriggan"
     },
     {
-    "charges": {
+      "charges": {
         "max_count": 0,
         "name": "default",
         "recharge_duration": 0.1,
         "starting_count": 0
-    },
-    "requirement": "CompletedElderShrine_Requirement",
-    "spawn_count": 1,
-    "unit": "Deathmaw"
+      },
+      "requirement": "CompletedElderShrine_Requirement",
+      "spawn_count": 1,
+      "unit": "Deathmaw"
     }
-],
-"id": "TwilightSpire_Spawn"
+  ],
+  "id": "TwilightSpire_Spawn"
 }

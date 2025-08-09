@@ -4,11 +4,13 @@
     "UnderConstruction_Vanguard",
     "structureProductionQueueAbilityData",
     "rallyData",
-    "MechBay_Spawn",
-    "Salvage"
+    "Salvage",
+    "MechBay_Spawn"
   ],
   "additional_black_mask_vision_radius": 5.0,
-  "alias_tech": [],
+  "alias_tech": [
+    "_MechBay"
+  ],
   "armor": 15.0,
   "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Vanguard_Building_0.UI_Icons_Armor_Vanguard_Building_0'",
   "armor_name": "pegasus_core|ArmorName_VanguardStructureArmor",
@@ -237,6 +239,7 @@
   "ui_kind": "unit",
   "unit_button": "MechBay_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_WarForge.UI_Portrait_Human_Default_WarForge'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SH_MechBayV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

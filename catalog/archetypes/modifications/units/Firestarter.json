@@ -19,8 +19,8 @@
     "BurnToAsh_Buff"
   ],
   "build_cost": {
-    "resource_a": 200.0,
-    "resource_b": 125.0,
+    "resource_a": 300.0,
+    "resource_b": 175.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
@@ -229,8 +229,7 @@
   "targeting_participation_alias": [],
   "traits": [
     "FirestarterBarrage_Trait",
-    "BurnToAsh_Trait",
-    "DiscoveredResources_Trait"
+    "BurnToAsh_Trait"
   ],
   "turret_list": [],
   "ui_flags": {
@@ -240,6 +239,7 @@
   "ui_kind": "unit",
   "unit_button": "Firestarter_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_FireStarter.UI_Portrait_Human_Default_FireStarter'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_Firestarter_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -263,6 +263,7 @@
       ],
       "threshold": 1000,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -282,6 +283,7 @@
       ],
       "threshold": 2500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -301,6 +303,7 @@
       ],
       "threshold": 4500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],
@@ -314,9 +317,9 @@
     "starting": 0.0
   },
   "vital_health": {
-    "maximum": 400.0,
+    "maximum": 500.0,
     "regen": 0.0,
-    "starting": 400.0
+    "starting": 500.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

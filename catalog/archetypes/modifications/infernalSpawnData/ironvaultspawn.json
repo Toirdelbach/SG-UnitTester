@@ -1,39 +1,38 @@
-
-{
-"commands": [
+﻿{
+  "commands": [
     {
-    "charges": {
+      "charges": {
         "max_count": 3,
         "name": "InfernalTrainingIronVault",
         "recharge_duration": 0.1,
         "starting_count": 1
-    },
-    "requirement": "CompletedIronVault_Requirement",
-    "spawn_count": 1,
-    "unit": "Brute"
+      },
+      "requirement": "CompletedIronVault_Requirement",
+      "spawn_count": 1,
+      "unit": "Brute"
     },
     {
-    "charges": {
+      "charges": {
         "max_count": 3,
         "name": "InfernalTrainingIronVault",
         "recharge_duration": 0.1,
         "starting_count": 1
-    },
-    "requirement": "CompletedIronVaultANDCompletedGreaterShrine_Requirement",
-    "spawn_count": 1,
-    "unit": "Magmadon"
+      },
+      "requirement": "CompletedIronVaultANDCompletedGreaterShrine_Requirement",
+      "spawn_count": 1,
+      "unit": "Magmadon"
     },
     {
-    "charges": {
+      "charges": {
         "max_count": 3,
         "name": "InfernalTrainingIronVault",
         "recharge_duration": 0.1,
         "starting_count": 1
-    },
-    "requirement": "CompletedIronVaultANDCompletedGreaterShrine_Requirement",
-    "spawn_count": 1,
-    "unit": "PitFiend"
+      },
+      "requirement": "CompletedIronVaultANDCompletedGreaterShrine_Requirement",
+      "spawn_count": 1,
+      "unit": "PitFiend"
     }
-],
-"id": "IronVault_Spawn"
+  ],
+  "id": "IronVault_Spawn"
 }

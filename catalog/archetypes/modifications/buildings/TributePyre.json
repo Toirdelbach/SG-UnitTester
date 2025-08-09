@@ -159,10 +159,11 @@
     "status_invulnerable"
   ],
   "subgroup_priority": 10,
-  "supply_add": 10.0,
+  "supply_add": 15.0,
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
   "traits": [
+    "ShroudGenerator_Trait",
     "SpawnFelhog_Trait",
     "BarrowFarmEatPig_Trait"
   ],
@@ -174,6 +175,7 @@
   "ui_kind": "unit",
   "unit_button": "TributePyre_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_TributePyre.UI_Portrait_Demon_Default_TributePyre'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SD_TributePyre_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

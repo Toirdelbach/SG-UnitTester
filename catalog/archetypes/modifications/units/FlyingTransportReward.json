@@ -259,6 +259,7 @@
   "ui_kind": "unit",
   "unit_button": "StormgateAbilityCreateTier2Transport_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_FlyingTransportReward.UI_Portrait_Demon_Default_FlyingTransportReward'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_SeaMonster",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

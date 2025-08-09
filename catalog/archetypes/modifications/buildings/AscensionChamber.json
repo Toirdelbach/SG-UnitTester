@@ -22,7 +22,7 @@
   },
   "build_time": 50.0,
   "cargo_size": "One",
-  "cascade_field_radius": 8,
+  "cascade_field_radius": 0,
   "commandList": [
     {
       "ability": "Test_Research",
@@ -181,9 +181,7 @@
   "supply_add": 0.0,
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
-  "traits": [
-    "CascadeField_Trait"
-  ],
+  "traits": [],
   "turret_list": [],
   "ui_flags": {
     "callout_attacks_air": false,
@@ -192,6 +190,7 @@
   "ui_kind": "unit",
   "unit_button": "AscensionChamber_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_AscensionChamber.UI_Portrait_Angel_Default_AscensionChamber'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_AscensionChamber_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

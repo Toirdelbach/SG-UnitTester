@@ -3,7 +3,8 @@
   "abilityList": [
     "UnderConstruction_Celestial",
     "structureProductionQueueAbilityData",
-    "ForceProjector_Research"
+    "ForceProjector_Research",
+    "MatterReallocation_GuardianNexus"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [],
@@ -22,7 +23,7 @@
   },
   "build_time": 50.0,
   "cargo_size": "One",
-  "cascade_field_radius": 7,
+  "cascade_field_radius": 15,
   "commandList": [
     {
       "ability": "structureProductionQueueAbilityData",
@@ -44,7 +45,7 @@
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 2,
-      "slot": 3,
+      "slot": 2,
       "submenu": 0,
       "targetSubmenu": -1
     },
@@ -56,6 +57,18 @@
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "ForceProjector_Research",
+      "button": "VisionTagUpgrade_Button",
+      "commandIndex": 2,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
       "slot": 3,
       "submenu": 0,
       "targetSubmenu": -1
@@ -63,18 +76,6 @@
     {
       "ability": "ForceProjector_Research",
       "button": "RollOutUpgrade_Button",
-      "commandIndex": 2,
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 2,
-      "slot": 4,
-      "submenu": 0,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "ForceProjector_Research",
-      "button": "BlazeOfLightUpgrade_Button",
       "commandIndex": 3,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
@@ -86,13 +87,13 @@
     },
     {
       "ability": "ForceProjector_Research",
-      "button": "VisionTagUpgrade_Button",
+      "button": "BlazeOfLightUpgrade_Button",
       "commandIndex": 4,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 2,
-      "slot": 5,
+      "slot": 4,
       "submenu": 0,
       "targetSubmenu": -1
     },
@@ -103,8 +104,8 @@
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
-      "row": 1,
-      "slot": 1,
+      "row": 2,
+      "slot": 5,
       "submenu": 0,
       "targetSubmenu": -1
     },
@@ -112,6 +113,18 @@
       "ability": "ForceProjector_Research",
       "button": "CabalMasterTrainingUpgrade_Button",
       "commandIndex": 6,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "ForceProjector_Research",
+      "button": "ArcshipSpeedUpgrade_Button",
+      "commandIndex": 7,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -123,7 +136,19 @@
     {
       "ability": "ForceProjector_Research",
       "button": "ForceProjectorDummyUpgrade3_Button",
-      "commandIndex": 7,
+      "commandIndex": 8,
+      "hotkey_should_hide": true,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "ForceProjector_Research",
+      "button": "ForceProjectorDummyUpgrade4_Button",
+      "commandIndex": 9,
       "hotkey_should_hide": true,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -133,10 +158,10 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "ForceProjector_Research",
-      "button": "ForceProjectorDummyUpgrade4_Button",
-      "commandIndex": 8,
-      "hotkey_should_hide": true,
+      "ability": "MatterReallocation_GuardianNexus",
+      "button": "MorphToMorphCore_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 1,
@@ -300,16 +325,17 @@
   "ui_kind": "unit",
   "unit_button": "ForceProjector_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_GuardianNexus.UI_Portrait_Angel_Default_GuardianNexus'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_Haven_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
-  "veterancy_given_on_death": 200,
+  "veterancy_given_on_death": 0,
   "veterancy_starting_tier": 0,
   "veterancy_tiers": [],
   "veterancy_vxp_weight": 0,
   "victory_points": 0.0,
   "vision_height": 0.0,
-  "vision_radius": 11.0,
+  "vision_radius": 13.0,
   "vital_energy": {
     "maximum": 50000.0,
     "regen": 50000.0,

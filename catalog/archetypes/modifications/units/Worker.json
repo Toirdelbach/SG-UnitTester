@@ -6,8 +6,8 @@
     "stopData",
     "holdPositionData",
     "WorkerVanguardHarvest",
-    "WorkerConstructAbilityData",
-    "WorkerRepair"
+    "WorkerRepair",
+    "WorkerConstructAbilityData"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [
@@ -418,6 +418,7 @@
   "ui_kind": "unit",
   "unit_button": "Worker_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Servo.UI_Portrait_Human_Default_Servo'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_Servo_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -441,6 +442,7 @@
       ],
       "threshold": 200,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -460,6 +462,7 @@
       ],
       "threshold": 500,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -479,6 +482,7 @@
       ],
       "threshold": 900,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

@@ -286,6 +286,7 @@
   "ui_kind": "unit",
   "unit_button": "Brute_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BruteV2.UI_Portrait_Demon_Default_BruteV2'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_AncientCrab",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

@@ -240,7 +240,8 @@
   "ui_kind": "unit",
   "unit_button": "Gunner_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Exo.UI_Portrait_Human_Default_Exo'",
-  "unreal_actor": "BP_UH_Exo_00",
+  "unit_name_list": "VanInfantryM",
+  "unreal_actor": "BP_UH_ExoV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
   "veterancy_given_on_death": 200,
@@ -263,6 +264,7 @@
       ],
       "threshold": 400,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -282,6 +284,7 @@
       ],
       "threshold": 1000,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -301,6 +304,7 @@
       ],
       "threshold": 1800,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

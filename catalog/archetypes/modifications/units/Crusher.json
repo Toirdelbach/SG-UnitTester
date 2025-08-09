@@ -217,6 +217,7 @@
   "ui_kind": "unit",
   "unit_button": "CrusherButton",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/Assets/ProxyAssets/Units/Human/BigMech/UI_Icons_Units_Human_Proxy_BigMech.UI_Icons_Units_Human_Proxy_BigMech'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_Unit_Neutral_Crusher",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

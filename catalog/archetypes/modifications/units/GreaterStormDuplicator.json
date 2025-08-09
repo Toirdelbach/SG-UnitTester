@@ -252,6 +252,7 @@
   "ui_kind": "unit",
   "unit_button": "StormgateLv3Ability_Create1GreaterUnitDuplicator_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Prism.UI_Portrait_Angel_Default_Prism'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_GreaterStormDuplicator_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

@@ -4,11 +4,13 @@
     "UnderConstruction_Celestial",
     "structureProductionQueueAbilityData",
     "Arcship_Spawn",
+    "Arcship_Rally",
     "ArcshipTier3Liftoff",
-    "attackData",
-    "stopData",
-    "PrismBuilder_Spawn",
-    "Purify"
+    "PowerSurge",
+    "ZenithScan",
+    "ArcshipTier3Relocate",
+    "ArcshipTier3Land",
+    "Arcship_Construct"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [
@@ -22,7 +24,10 @@
   "attack_target_priority": 11,
   "based_on": "BaseUnit_CelestialS",
   "behaviors": [],
-  "buffs": [],
+  "buffs": [
+    "ArcshipTrySpawnCollectionArray_Buff",
+    "ArcshipGround_VisualBuff"
+  ],
   "build_cost": {
     "resource_a": 600.0,
     "resource_b": 250.0,
@@ -31,7 +36,7 @@
   },
   "build_time": 60.0,
   "cargo_size": "One",
-  "cascade_field_radius": 8,
+  "cascade_field_radius": 15,
   "commandList": [
     {
       "ability": "structureProductionQueueAbilityData",
@@ -47,7 +52,7 @@
     },
     {
       "ability": "ArcshipTier3Liftoff",
-      "button": "ArcshipLiftoff_Button",
+      "button": "ArcshipLiftoffTier3_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
@@ -58,69 +63,57 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "attackData",
-      "button": "ImmobileAttack_Button",
-      "commandIndex": 0,
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 2,
-      "slot": 1,
-      "submenu": 0,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "stopData",
-      "button": "StopButton",
-      "commandIndex": 0,
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 2,
-      "slot": 2,
-      "submenu": 0,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "PrismBuilder_Spawn",
+      "ability": "Arcship_Spawn",
       "button": "Prism_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
-      "repeatable": true,
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "PowerSurge",
+      "button": "PowerSurge_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
       "row": 1,
       "slot": 1,
       "submenu": 0,
       "targetSubmenu": -1
     },
     {
-      "ability": "Arcship_Spawn",
-      "button": "MorphCore_Button",
+      "ability": "ZenithScan",
+      "button": "ZenithScan_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
-      "repeatable": true,
+      "repeatable": false,
       "row": 1,
       "slot": 2,
       "submenu": 0,
       "targetSubmenu": -1
     },
     {
-      "ability": "Purify",
-      "button": "Purify_Button",
+      "ability": "ArcshipTier3Relocate",
+      "button": "ArcshipTier3Relocate_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
-      "row": 1,
-      "slot": 3,
+      "row": 2,
+      "slot": 5,
       "submenu": 0,
       "targetSubmenu": -1
     }
   ],
   "construction_set_sfx": "OnConstructionSet",
   "damage_response": "Acquire_or_Flee",
-  "default_acquire_level": "Offensive",
+  "default_acquire_level": "Defensive",
   "default_control_groups": [],
   "effects": {
     "birth": "emptyRef",
@@ -129,7 +122,11 @@
     "death": "emptyRef",
     "revenge": "emptyRef"
   },
-  "enabled_unit_tech": [],
+  "enabled_unit_tech": [
+    {
+      "unit": "ArchangelFlying"
+    }
+  ],
   "energy_type": "Energy",
   "expiration_time": 60.0,
   "faction": "Celestial",
@@ -222,7 +219,7 @@
   "power_produced": 20.0,
   "responses": [],
   "sb_id": "none",
-  "selection_alias": "",
+  "selection_alias": "ArcshipGrounded",
   "show_name_on_hover": false,
   "shroud_radius": 0.0,
   "sound_cooldown_data_list": [
@@ -251,14 +248,13 @@
     "heightplane_ground",
     "status_invulnerable"
   ],
-  "subgroup_priority": 62,
+  "subgroup_priority": 60,
   "supply_add": 0.0,
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
   "traits": [
-    "WeaponRequiresPower_Trait",
-    "CascadeField_Trait",
-    "PowerProducer20_Trait"
+    "ArcshipCascadeFieldAndPower_Trait",
+    "BuildCollectionArray_Trait"
   ],
   "turret_list": [],
   "ui_flags": {
@@ -268,6 +264,7 @@
   "ui_kind": "unit",
   "unit_button": "ArcshipTier3_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_ArcshipT3.UI_Portrait_Angel_Default_ArcshipT3'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SA_ArcshipGround_C_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -307,7 +304,5 @@
   "vital_shroud_bonus_shield_multiplier": 0.0,
   "vital_shroud_combat_delay": 5.0,
   "vitals_force_hide": false,
-  "weaponList": [
-    "ArcshipTier3_Weapon"
-  ]
+  "weaponList": []
 }

@@ -1,7 +1,7 @@
 {
   "__base_type": "UpgradeData",
   "based_on": "BaseUpgradeData",
-  "button": "RevitalizeLevel2Upgrade_Button",
+  "button": "RevitalizeLevel3Upgrade_Button",
   "create_alert_on_complete": false,
   "flags": {
     "shared_with_team": false

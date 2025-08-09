@@ -52,7 +52,7 @@
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 2,
-      "slot": 3,
+      "slot": 4,
       "submenu": 0,
       "targetSubmenu": -1
     },
@@ -270,6 +270,7 @@
   "ui_kind": "unit",
   "unit_button": "HQTier2_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_CentralCommandV2.UI_Portrait_Human_Default_CentralCommandV2'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SH_HQV2_01",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

@@ -200,6 +200,7 @@
   "ui_kind": "unit",
   "unit_button": "Obelisk_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Obelisk.UI_Portrait_Demon_Default_Obelisk'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_DefensiveTower_3v3",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

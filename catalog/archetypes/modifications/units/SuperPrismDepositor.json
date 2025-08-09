@@ -249,6 +249,7 @@
   "ui_kind": "unit",
   "unit_button": "Prism_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Prism.UI_Portrait_Angel_Default_Prism'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UA_SuperPrism",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

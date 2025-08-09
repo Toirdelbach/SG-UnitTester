@@ -226,6 +226,7 @@
   "targeting_participation_alias": [],
   "traits": [
     "GauntBouncingGlaives_Trait",
+    "GauntPlagueAxe_Trait",
     "GauntDeathAxe_Trait"
   ],
   "turret_list": [],
@@ -236,6 +237,7 @@
   "ui_kind": "unit",
   "unit_button": "Gaunt_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_GauntV2.UI_Portrait_Demon_Default_GauntV2'",
+  "unit_name_list": "InfBipedes",
   "unreal_actor": "BP_UD_Centaur_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

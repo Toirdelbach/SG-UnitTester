@@ -260,6 +260,7 @@
   "ui_kind": "unit",
   "unit_button": "HQTier1_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_CommandPostV2.UI_Portrait_Human_Default_CommandPostV2'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SH_HQV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

@@ -276,6 +276,7 @@
   "ui_kind": "unit",
   "unit_button": "Barracks_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Barracks.UI_Portrait_Human_Default_Barracks'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_Structure_Human_Barracks_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

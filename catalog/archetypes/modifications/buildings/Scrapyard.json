@@ -248,6 +248,7 @@
   "ui_kind": "unit",
   "unit_button": "Scrapyard_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_TheriumRefinery.UI_Portrait_Human_Default_TheriumRefinery'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_Structure_Human_Scrapyard_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

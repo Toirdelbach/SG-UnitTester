@@ -2,48 +2,90 @@
   "__base_type": "UnitData",
   "abilityList": [
     "UnderConstruction_Celestial",
-    "MorphToSparkNode",
-    "MorphToWarpNode"
+    "ChangeIntoStrikeNode",
+    "ChangeIntoEnergyNode",
+    "MatterReallocation_LinkNode",
+    "Rejuvenation",
+    "stopData"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [],
-  "armor": 5.0,
+  "armor": 10.0,
   "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Celestial_Building_0.UI_Icons_Armor_Celestial_Building_0'",
   "armor_name": "pegasus_core|ArmorName_CelestialStructureArmor",
   "attack_target_priority": 11,
   "based_on": "BaseUnit_CelestialS",
   "behaviors": [],
-  "buffs": [],
+  "buffs": [
+    "GracelightNode_Buff",
+    "NodeMorph_Buff"
+  ],
   "build_cost": {
-    "resource_a": 50.0,
+    "resource_a": 100.0,
     "resource_b": 0.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
-  "build_time": 5.0,
+  "build_time": 10.0,
   "cargo_size": "One",
   "cascade_field_radius": 15,
   "commandList": [
     {
-      "ability": "MorphToSparkNode",
+      "ability": "ChangeIntoStrikeNode",
       "button": "MorphToSparkNode_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 1,
-      "slot": 1,
+      "slot": 2,
       "submenu": 0,
       "targetSubmenu": -1
     },
     {
-      "ability": "MorphToWarpNode",
-      "button": "MorphToWarpNode_Button",
+      "ability": "ChangeIntoEnergyNode",
+      "button": "MorphToPowerBank_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
       "row": 1,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MatterReallocation_LinkNode",
+      "button": "MorphToMorphCore_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "Rejuvenation",
+      "button": "Rejuvenation_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "stopData",
+      "button": "StopButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
       "slot": 2,
       "submenu": 0,
       "targetSubmenu": -1
@@ -55,16 +97,12 @@
   "default_control_groups": [],
   "effects": {
     "birth": "emptyRef",
-    "constructed": "emptyRef",
+    "constructed": "GracelightBurstEffect_Set",
     "creation": "emptyRef",
     "death": "emptyRef",
     "revenge": "emptyRef"
   },
-  "enabled_unit_tech": [
-    {
-      "unit": "SparkNode"
-    }
-  ],
+  "enabled_unit_tech": [],
   "energy_type": "Energy",
   "expiration_time": 60.0,
   "faction": "Celestial",
@@ -104,8 +142,8 @@
     "snap": true,
     "unbuildable": false,
     "vision_block_height": 0,
-    "x": 3.0,
-    "y": 3.0
+    "x": 2.0,
+    "y": 2.0
   },
   "global_energy": "emptyRef",
   "global_resource_overrides": [],
@@ -115,7 +153,7 @@
   "minimap_icon": "",
   "minimap_icon_custom_color": "FFFFFFFF",
   "minimap_icon_no_color_override": false,
-  "minimap_icon_size": 16.0,
+  "minimap_icon_size": 20.0,
   "minimap_icon_upper_layer": false,
   "minimap_icon_use_heading": false,
   "minimap_icon_use_team_color": false,
@@ -138,7 +176,7 @@
       "separation_strength": 1.5
     },
     "idle_pushable": false,
-    "lock_facing": false,
+    "lock_facing": true,
     "moving_turn_period": 0.0,
     "pathing_mode": "Ground",
     "push_priority": 0,
@@ -151,10 +189,10 @@
   },
   "name": "pegasus_core|UnitData_name_LinkNode",
   "num_corpses": 1,
-  "outer_radius": 1.7,
+  "outer_radius": 1.1,
   "placed_name": "",
   "power_consumed": 0.0,
-  "power_produced": 0.0,
+  "power_produced": 10.0,
   "responses": [],
   "sb_id": "none",
   "selection_alias": "",
@@ -191,7 +229,8 @@
   "supply_cost": 0.0,
   "targeting_participation_alias": [],
   "traits": [
-    "CascadeField_Trait"
+    "CascadeField_Trait",
+    "PowerProducer10_Trait"
   ],
   "turret_list": [],
   "ui_flags": {
@@ -200,11 +239,12 @@
   },
   "ui_kind": "unit",
   "unit_button": "LinkNode_Button",
-  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_LinkNode.UI_Portrait_Angel_Default_LinkNode'",
-  "unreal_actor": "BP_SA_LinkNode_00",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Default_GraceLight_Node.UI_Portrait_Default_GraceLight_Node'",
+  "unit_name_list": "emptyRef",
+  "unreal_actor": "BP_SA_PowerBank_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
-  "veterancy_given_on_death": 0,
+  "veterancy_given_on_death": 200,
   "veterancy_starting_tier": 0,
   "veterancy_tiers": [],
   "veterancy_vxp_weight": 0,
@@ -217,9 +257,9 @@
     "starting": 50000.0
   },
   "vital_health": {
-    "maximum": 200.0,
+    "maximum": 280.0,
     "regen": 0.0,
-    "starting": 200.0
+    "starting": 280.0
   },
   "vital_out_shroud_deduction_energy_flat": 0.0,
   "vital_out_shroud_deduction_energy_multiplier": 0.0,

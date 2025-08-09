@@ -228,6 +228,7 @@
   "ui_kind": "unit",
   "unit_button": "BurnedOne_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_BurnedOne_VeryLarge.UI_Icons_Units_Demon_BurnedOne_VeryLarge'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_Sharon_Boss",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

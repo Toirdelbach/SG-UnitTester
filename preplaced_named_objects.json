@@ -262,11 +262,11 @@
   },
   "713061C4-48C6-6DE1-475F-D68925B1AF0F": {
     "facing": 0,
-    "kind": "ArcshipTier3Flying",
+    "kind": "ArcshipTier3",
     "player": 1,
     "position": [
       -688128,
-      174862
+      259098
     ]
   },
   "7DDF7472-44C1-E3B5-AB87-958803401462": {
@@ -496,11 +496,11 @@
   },
   "E7B9446E-49A9-F0AE-DF0E-48B64CE2104B": {
     "facing": 0,
-    "kind": "ArcshipTier3Flying",
+    "kind": "ArcshipTier3",
     "player": 2,
     "position": [
       688128,
-      212992
+      272978
     ]
   },
   "ED52F9DC-4D1A-E93B-496B-4EB62893539E": {

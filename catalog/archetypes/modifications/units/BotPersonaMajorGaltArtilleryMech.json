@@ -227,7 +227,8 @@
   "supply_cost": 6.0,
   "targeting_participation_alias": [],
   "traits": [
-    "ArtilleryMechDoT_Trait"
+    "ArtilleryMechDoT_Trait",
+    "BotPersonaMajorGaltOverconfidenceProtocol_Trait"
   ],
   "turret_list": [
     "Turret_ArtilleryMech"
@@ -239,6 +240,7 @@
   "ui_kind": "unit",
   "unit_button": "ArtilleryMech_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_ArtilleryMech.UI_Portrait_Human_Default_ArtilleryMech'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_ArtilleryMech_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -258,6 +260,7 @@
       ],
       "threshold": 1200,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier1"
     },
     {
@@ -273,6 +276,7 @@
       ],
       "threshold": 3000,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier2"
     },
     {
@@ -288,6 +292,7 @@
       ],
       "threshold": 5400,
       "tier_up_effect": "emptyRef",
+      "veterancy_given_on_death_tier_bonus": 0,
       "visual_fx": "BP_FX_VanguardLevelUp_Tier3"
     }
   ],

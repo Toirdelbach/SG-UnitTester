@@ -114,7 +114,7 @@
     },
     {
       "ability": "MorphCore_Construct",
-      "button": "MorphToPowerBank_Button",
+      "button": "LinkNode_Button",
       "commandIndex": 1,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
@@ -162,32 +162,8 @@
     },
     {
       "ability": "MorphCore_Construct",
-      "button": "MorphToLinkNode_Button",
-      "commandIndex": 5,
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 1,
-      "slot": 1,
-      "submenu": 1,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "MorphCore_Construct",
-      "button": "MorphToPurifier_Button",
-      "commandIndex": 6,
-      "hotkey_should_hide": false,
-      "panel": "CommandPanel",
-      "repeatable": false,
-      "row": 1,
-      "slot": 2,
-      "submenu": 1,
-      "targetSubmenu": -1
-    },
-    {
-      "ability": "MorphCore_Construct",
       "button": "MorphToForceProjector_Button",
-      "commandIndex": 7,
+      "commandIndex": 5,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -199,7 +175,7 @@
     {
       "ability": "MorphCore_Construct",
       "button": "MorphToGuardianNexus_Button",
-      "commandIndex": 8,
+      "commandIndex": 6,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -210,8 +186,8 @@
     },
     {
       "ability": "MorphCore_Construct",
-      "button": "MorphToCollectionArray_Button",
-      "commandIndex": 9,
+      "button": "MorphToAeonGate_Button",
+      "commandIndex": 7,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
       "repeatable": false,
@@ -356,7 +332,7 @@
   ],
   "subgroup_priority": 101,
   "supply_add": 0.0,
-  "supply_cost": 2.0,
+  "supply_cost": 0.0,
   "targeting_participation_alias": [],
   "traits": [
     "ArcshipSpeedUpgrade_Trait"
@@ -369,6 +345,7 @@
   "ui_kind": "unit",
   "unit_button": "MorphCore_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_MorphCore.UI_Portrait_Angel_Default_MorphCore'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UA_MorphCore_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
@@ -408,7 +385,5 @@
   "vital_shroud_bonus_shield_multiplier": 0.0,
   "vital_shroud_combat_delay": 5.0,
   "vitals_force_hide": false,
-  "weaponList": [
-    "MorphCore_Weapon"
-  ]
+  "weaponList": []
 }

@@ -4,7 +4,8 @@
     "UnderConstruction_Celestial",
     "structureProductionQueueAbilityData",
     "AeonDriftCargo",
-    "rallyData"
+    "AeonGate_Rally",
+    "MatterReallocation_AeonGate"
   ],
   "additional_black_mask_vision_radius": 5.0,
   "alias_tech": [],
@@ -16,14 +17,14 @@
   "behaviors": [],
   "buffs": [],
   "build_cost": {
-    "resource_a": 50.0,
+    "resource_a": 100.0,
     "resource_b": 50.0,
     "resource_c": 0.0,
     "resource_d": 0.0
   },
   "build_time": 20.0,
   "cargo_size": "One",
-  "cascade_field_radius": 6,
+  "cascade_field_radius": 15,
   "commandList": [
     {
       "ability": "structureProductionQueueAbilityData",
@@ -62,7 +63,7 @@
       "targetSubmenu": -1
     },
     {
-      "ability": "rallyData",
+      "ability": "AeonGate_Rally",
       "button": "Rally_Button",
       "commandIndex": 0,
       "hotkey_should_hide": false,
@@ -70,6 +71,18 @@
       "repeatable": false,
       "row": 1,
       "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "MatterReallocation_AeonGate",
+      "button": "MorphToMorphCore_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
       "submenu": 0,
       "targetSubmenu": -1
     }
@@ -125,8 +138,8 @@
     "snap": true,
     "unbuildable": false,
     "vision_block_height": 0,
-    "x": 4.0,
-    "y": 4.0
+    "x": 3.0,
+    "y": 3.0
   },
   "global_energy": "emptyRef",
   "global_resource_overrides": [],
@@ -223,7 +236,8 @@
   "ui_kind": "unit",
   "unit_button": "CelestialHQ_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_AeonGate.UI_Portrait_Angel_Default_AeonGate'",
-  "unreal_actor": "BP_SA_AscensionChamber_00",
+  "unit_name_list": "emptyRef",
+  "unreal_actor": "BP_SA_AscensionChamberV2_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",
   "veterancy_given_on_death": 0,
@@ -232,7 +246,7 @@
   "veterancy_vxp_weight": 0,
   "victory_points": 0.0,
   "vision_height": 0.0,
-  "vision_radius": 11.0,
+  "vision_radius": 13.0,
   "vital_energy": {
     "maximum": 50000.0,
     "regen": 50000.0,

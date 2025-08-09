@@ -173,6 +173,7 @@
   "ui_kind": "unit",
   "unit_button": "BarrowFarm_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BarrowFarm.UI_Portrait_Demon_Default_BarrowFarm'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_SD_TributePyre_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

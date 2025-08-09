@@ -1,7 +1,7 @@
 {
   "__base_type": "UpgradeData",
   "based_on": "BaseUpgradeData",
-  "button": "emptyRef",
+  "button": "FireGiantSpawnImpsUpgrade_Button",
   "create_alert_on_complete": true,
   "flags": {
     "shared_with_team": false
@@ -13,7 +13,7 @@
   "research_effect": "emptyRef",
   "research_time": 0.0,
   "resource_cost": {
-    "resource_a": 0.0,
+    "resource_a": 100.0,
     "resource_b": 100.0,
     "resource_c": 0.0,
     "resource_d": 0.0

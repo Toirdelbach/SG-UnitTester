@@ -19,7 +19,7 @@
     "PulseShield_BuffListener"
   ],
   "build_cost": {
-    "resource_a": 200.0,
+    "resource_a": 150.0,
     "resource_b": 75.0,
     "resource_c": 0.0,
     "resource_d": 0.0
@@ -249,7 +249,8 @@
   },
   "ui_kind": "unit",
   "unit_button": "Scythe_Button",
-  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Scythe.UI_Portrait_Angel_Default_Scythe'",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_ScytheV2.UI_Portrait_Angel_Default_ScytheV2'",
+  "unit_name_list": "CelVehicle",
   "unreal_actor": "BP_UA_Scythe_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

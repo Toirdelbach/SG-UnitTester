@@ -179,6 +179,7 @@
   "ui_kind": "unit",
   "unit_button": "WhisperParasite_DeepInfiltration_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Whipserer.UI_Portrait_Demon_Default_Whipserer'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_WhisperParasite_Temp",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

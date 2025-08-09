@@ -167,6 +167,7 @@
   "ui_kind": "unit",
   "unit_button": "GunnerMine_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Commands_Vanguard_ProximityMine_Detonate.UI_Icons_Commands_Vanguard_ProximityMine_Detonate'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UH_Mine_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

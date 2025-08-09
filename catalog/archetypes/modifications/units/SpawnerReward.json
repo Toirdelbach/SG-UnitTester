@@ -8,9 +8,7 @@
     "SpawnMonsterDogs"
   ],
   "additional_black_mask_vision_radius": 5.0,
-  "alias_tech": [
-    "_Duplicator"
-  ],
+  "alias_tech": [],
   "armor": 5.0,
   "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_VoidHusk.UI_Icons_Armor_Stormgates_VoidHusk'",
   "armor_name": "pegasus_core|UnitData_armor_name_SpawnerReward",
@@ -252,6 +250,7 @@
   "ui_kind": "unit",
   "unit_button": "StormgateAbilityCreateTier3Spawner_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_SpawnerReward.UI_Portrait_Demon_Default_SpawnerReward'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UN_Monster",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

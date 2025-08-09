@@ -285,6 +285,7 @@
   "ui_kind": "unit",
   "unit_button": "Hag_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Hag.UI_Portrait_Demon_Default_Hag'",
+  "unit_name_list": "InfBipedes",
   "unreal_actor": "BP_UD_Hag_00",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

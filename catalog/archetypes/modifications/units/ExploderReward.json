@@ -247,6 +247,7 @@
   "ui_kind": "unit",
   "unit_button": "StormgateAbilityCreateTier2Exploder_Button",
   "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ExploderReward.UI_Portrait_Demon_Default_ExploderReward'",
+  "unit_name_list": "emptyRef",
   "unreal_actor": "BP_UD_ExploderRewardBurnedOne",
   "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
   "veterancy_data": "BaseVeterancyData",

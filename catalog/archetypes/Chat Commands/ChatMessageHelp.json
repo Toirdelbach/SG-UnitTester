@@ -1,16 +1,14 @@
-{
+﻿{
   "actions": [
     {
       "function_id": "General_IfThenElse",
       "sub_functions": [
         {
-          "id": "if",
           "functions": [
             {
               "function_id": "Logic_Comparison",
               "parameters": [
                 {
-                  "id": "value1",
                   "expressions": [
                     {
                       "function": {
@@ -18,10 +16,10 @@
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "value1"
                 },
                 {
-                  "id": "op",
                   "expressions": [
                     {
                       "preset": {
@@ -30,57 +28,63 @@
                       },
                       "type": "Preset"
                     }
-                  ]
+                  ],
+                  "id": "op"
                 },
                 {
-                  "id": "value2",
                   "expressions": [
                     {
                       "type": "Value",
                       "value": {
-                        "type": { "directive": "FunctionType", "type": "String" },
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "String"
+                        },
                         "value": "!help"
                       }
                     }
-                  ]
+                  ],
+                  "id": "value2"
                 }
               ]
             }
-          ]
+          ],
+          "id": "if"
         },
         {
-          "id": "Then",
           "functions": [
             {
               "function_id": "UI_SendChatMessage",
               "parameters": [
                 {
-                  "id": "message",
                   "expressions": [
                     {
                       "function": {
                         "function_id": "Text_ToText",
                         "parameters": [
                           {
-                            "id": "value",
                             "expressions": [
                               {
                                 "type": "Value",
                                 "value": {
-                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "type": "String"
+                                  },
                                   "value": "!help - displays this message"
                                 }
                               }
-                            ]
+                            ],
+                            "id": "value"
                           }
                         ]
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "message"
                 },
                 {
-                  "id": "group",
                   "expressions": [
                     {
                       "function": {
@@ -88,7 +92,8 @@
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "group"
                 }
               ]
             },
@@ -96,32 +101,34 @@
               "function_id": "UI_SendChatMessage",
               "parameters": [
                 {
-                  "id": "message",
                   "expressions": [
                     {
                       "function": {
                         "function_id": "Text_ToText",
                         "parameters": [
                           {
-                            "id": "value",
                             "expressions": [
                               {
                                 "type": "Value",
                                 "value": {
-                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "type": "String"
+                                  },
                                   "value": "!give - gives selected units to player 2 (for solo play)"
                                 }
                               }
-                            ]
+                            ],
+                            "id": "value"
                           }
                         ]
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "message"
                 },
                 {
-                  "id": "group",
                   "expressions": [
                     {
                       "function": {
@@ -129,7 +136,8 @@
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "group"
                 }
               ]
             },
@@ -137,32 +145,34 @@
               "function_id": "UI_SendChatMessage",
               "parameters": [
                 {
-                  "id": "message",
                   "expressions": [
                     {
                       "function": {
                         "function_id": "Text_ToText",
                         "parameters": [
                           {
-                            "id": "value",
                             "expressions": [
                               {
                                 "type": "Value",
                                 "value": {
-                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "type": "String"
+                                  },
                                   "value": "!kill - kills selected units"
                                 }
                               }
-                            ]
+                            ],
+                            "id": "value"
                           }
                         ]
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "message"
                 },
                 {
-                  "id": "group",
                   "expressions": [
                     {
                       "function": {
@@ -170,7 +180,8 @@
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "group"
                 }
               ]
             },
@@ -178,32 +189,34 @@
               "function_id": "UI_SendChatMessage",
               "parameters": [
                 {
-                  "id": "message",
                   "expressions": [
                     {
                       "function": {
                         "function_id": "Text_ToText",
                         "parameters": [
                           {
-                            "id": "value",
                             "expressions": [
                               {
                                 "type": "Value",
                                 "value": {
-                                  "type": { "directive": "FunctionType", "type": "String" },
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "type": "String"
+                                  },
                                   "value": "!tech - resets tech unlocks"
                                 }
                               }
-                            ]
+                            ],
+                            "id": "value"
                           }
                         ]
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "message"
                 },
                 {
-                  "id": "group",
                   "expressions": [
                     {
                       "function": {
@@ -211,15 +224,17 @@
                       },
                       "type": "Function"
                     }
-                  ]
+                  ],
+                  "id": "group"
                 }
               ]
             }
-          ]
+          ],
+          "id": "Then"
         },
         {
-          "id": "Else",
-          "functions": []
+          "functions": [],
+          "id": "Else"
         }
       ]
     }
@@ -230,7 +245,6 @@
       "function_id": "Player_OnPlayerSendsChatMessage",
       "parameters": [
         {
-          "id": "player",
           "expressions": [
             {
               "preset": {
@@ -239,7 +253,8 @@
               },
               "type": "Preset"
             }
-          ]
+          ],
+          "id": "player"
         }
       ]
     }
