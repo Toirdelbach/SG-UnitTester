@@ -46,7 +46,7 @@
     },
     {
       "ability": "MeatManor_Spawn",
-      "button": "StormgateAbilityCreateTier2Exploder_Button",
+      "button": "StormgateAbilityCreateTier1Ooze_Button",
       "commandIndex": 2,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
@@ -58,7 +58,7 @@
     },
     {
       "ability": "MeatManor_Spawn",
-      "button": "StormgateAbilityCreateTier1Ooze_Button",
+      "button": "StormgateAbilityCreateTier2Exploder_Button",
       "commandIndex": 3,
       "hotkey_should_hide": false,
       "panel": "CommandPanel",
