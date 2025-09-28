@@ -70,5 +70,12 @@
     }
   ],
   "id": "AbyssalGateBase",
+  "starting_snowtags": [
+          "entity_unit_structure",
+          "heightplane_ground",
+          "attribute_mechanical",
+          "attribute_heavy",
+          "status_invulnerable"
+        ],
   "weaponList": []
 }

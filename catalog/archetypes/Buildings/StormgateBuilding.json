@@ -130,5 +130,15 @@
     }
   ],
   "id": "Stormgate",
-  "shroud_radius": 0
+  "shroud_radius": 0,
+  "starting_snowtags": [
+          "entity_unit_structure",
+          "preventdefeat_elimination",
+          "heightplane_ground",
+          "attribute_mechanical",
+          "attribute_heavy",
+          "state_resourcedropoff_a",
+          "state_resourcedropoff_b",
+          "status_invulnerable"
+        ]
 }
